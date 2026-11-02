@@ -44,6 +44,5 @@
   ],
   "source_specific_reporting_required": true,
   "combined_reporting": "optional_supplementary",
-  "training_on_external": false,
-  "ocd_bda_status": "superseded_not_active_test"
+  "training_on_external": false
 }

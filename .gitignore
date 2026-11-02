@@ -16,21 +16,6 @@ frontend/dist/
 .DS_Store
 Thumbs.db
 
-# Local packages, model artifacts and historical review tooling.
-/deliverables/
-/review_ui/
-/quake/label_review.py
-/tests/test_label_review.py
-/docs/LABEL_REVIEW.md
-/docs/team_data_status.json
-/scripts/audit_ocd_bda.py
-/scripts/fetch_ocd_audit_data.py
-/scripts/inspect_detector_checkpoint.py
-/scripts/inspect_ebd_candidate.py
-/scripts/scan_ebd_mask_samples.py
-/scripts/update_ebd_handoff_docs.py
-/scripts/update_external_suite_docs.py
-
 # Keep only the small, reproducible source audit inputs in Git.
 /technical_checks/*
 !/technical_checks/detector_verification/
@@ -48,7 +33,6 @@ Thumbs.db
 !/technical_checks/test_dataset_search/haitibrd/source_sha256.json
 !/technical_checks/test_dataset_search/haitibrd/inventory.json
 !/technical_checks/test_dataset_search/haitibrd/paired_screen_regions.json
-!/technical_checks/test_dataset_search/haitibrd/FINDINGS.md
 
 *.zip
 *.7z

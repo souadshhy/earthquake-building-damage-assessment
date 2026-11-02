@@ -162,12 +162,9 @@ def publish_roles(manifest):
         "external_directory":"data/team_external_tests_v1","external_scoring_records":"regions.jsonl",
         "external_classes":list(CLASSES),"external_source_support":manifest["source_class_support"],
         "combined_class_support":manifest["combined_class_support"],"source_specific_reporting_required":True,
-        "combined_reporting":"optional_supplementary","training_on_external":False,"ocd_bda_status":"superseded_not_active_test"}
+        "combined_reporting":"optional_supplementary","training_on_external":False}
     write_json(ROOT/"configs/dataset_roles.json",roles)
-    status=read_json(ROOT/"docs/team_data_status.json") if (ROOT/"docs/team_data_status.json").exists() else {
-        "xbd":validate_manifest(ROOT/"data/xbd_team_v1")}
-    status.update({"xbd":validate_manifest(ROOT/"data/xbd_team_v1"),"external":manifest,"external_dataset":manifest["dataset"]})
-    write_json(ROOT/"docs/team_data_status.json",status)
+
 
 
 if __name__=="__main__":

@@ -33,7 +33,7 @@ Vite prints the local address. `npm run build` checks TypeScript and builds the 
 
 ## Data and weights — Students 1 and 2
 
-Source code/tests and the starter application need no dataset downloads. For actual preparation, training and evaluation, follow `datasets/README.md` and `docs/EXTERNAL_TESTS.md`. Transfer source imagery/archives under their terms. A fresh clone has no `data/`, `weights/`, or generated `docs/team_data_status.json`.
+Source code/tests and the starter application need no dataset downloads. For actual preparation, training and evaluation, follow `datasets/README.md` and `docs/EXTERNAL_TESTS.md`. Transfer source imagery/archives under their terms. A fresh clone has no `data/` or `weights/`. Dataset summaries are in the generated data manifests.
 
 1. Obtain the xBD archive and EBD release/provenance, and transfer/download HaitiBRD source files as documented.
 2. Run `python scripts/prepare_team_datasets.py --external suite --archive 'D:\\datasets\\train_images_labels_targets.tar'` from the repository root.

@@ -22,7 +22,7 @@ The AI handoffs explain the whole project, the assigned files, first tasks, hand
 | Owner | Main folders/files | Start here |
 |---|---|---|
 | Student 1 — Data and evaluation | `datasets/`, data preparation scripts, `quake/data.py`, `quake/ebd.py`, `quake/crops.py`, `quake/external.py`, `quake/metrics.py`, related tests | [Data work](datasets/README.md) |
-| Student 2 — Models and training | `quake/models.py`, `quake/training.py`, `quake/detector.py`, `scripts/download_weights.py`, `scripts/verify_detector.py` | [Model work](docs/roles/STUDENT_2_MODELS.md) |
+| Student 2 — Models and training | `quake/models.py`, `quake/training.py`, `quake/detector.py`, `scripts/download_weights.py`, `scripts/verify_detector.py` | [Model work](docs/handbook/AI_STUDENT_2_MODELS_TRAINING.md) |
 | Student 3 — Backend, geography and exports | `backend/`, `quake/geo.py`, backend tests | [Backend work](backend/README.md) |
 | Student 4 — Frontend and integration | `frontend/`, frontend tests | [Frontend work](frontend/README.md) |
 | Shared — agree changes together | `contracts/`, `configs/`, `pyproject.toml`, `.github/` | [Ownership and handoffs](docs/OWNERSHIP.md) |
@@ -87,4 +87,4 @@ cd earthquake-building-damage-assessment
 
 Follow docs/SETUP.md, create your own branch, and use pull requests. Large datasets and weights transfer separately. Branch protection and actual student handles still need configuration by the coordinator.
 
-The repository is now the working source of truth. Previous handoff ZIPs are dated snapshots, not separate working projects. Third-party Microsoft source retains its license in `quake/vendor/MICROSOFT_LICENSE`; dataset and imagery terms remain separate. No license for original student code is assumed here.
+The GitHub repository is the shared working source of truth. Third-party Microsoft source retains its license in `quake/vendor/MICROSOFT_LICENSE`; dataset and imagery terms remain separate. No license for original student code is assumed here.

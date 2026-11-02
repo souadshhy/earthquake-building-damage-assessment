@@ -20,7 +20,6 @@ def main():
     assert "ebd_turkey" in roles["external_test"] and roles["training_on_external"] is False
     assert roles["training"] == ["hurricane-harvey", "hurricane-michael", "mexico-earthquake"]
     assert roles["external_classes"] == list(CLASSES)
-    assert roles["ocd_bda_status"] == "superseded_not_active_test"
     pairs = {r["pair_id"]:r for r in read_json(directory / "pairs.json")}
     clean = {r["building_id"]:r for r in jsonl(directory / "reference_regions.jsonl")}
     selected = list(jsonl(directory / "paired_verified_regions.jsonl"))

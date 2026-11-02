@@ -1,23 +1,15 @@
-"""Versioned, coarse label harmonization; native annotations remain authoritative.
-
-This is an operational comparison convention, not equivalence of native taxonomies.
-"""
+"""Current map display grouping; quantitative evaluation retains four classes."""
 import numpy as np
 
 VERSION = "xbd-ebd-four-class-v2"
 COMMON_CLASSES = ("no_apparent_damage", "damaged", "destroyed_or_collapsed")
 XBD_TO_COMMON = {"no-damage": 0, "minor-damage": 1, "major-damage": 1, "destroyed": 2}
-OCD_TO_COMMON = {"2": 0, "1": 1, "0": 2}
 PRIORITIES = ("lower", "medium", "high")
 
 
 def common_label(dataset, native_label):
     if dataset == "xbd":
         return XBD_TO_COMMON.get(native_label)  # Unclassified is excluded, never background severity.
-    if dataset == "ocd_bda":
-        if str(native_label) not in OCD_TO_COMMON:
-            raise ValueError("Unknown OCD-BDA native ID")
-        return OCD_TO_COMMON[str(native_label)]
     if dataset == "ebd":
         from .ebd import mask_class_index
         index = mask_class_index(int(native_label))

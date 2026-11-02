@@ -10,4 +10,4 @@ The map's separate presentation groups probabilities as no apparent damage=P(no 
 
 Building groups/regions are accepted inspection targets and must be labeled as such. Mixed-class reference groups are not silently assigned a majority label. Reference geographic files are explicitly marked as references, not predictions; their severity labels never enter production inference inputs.
 
-Read `EXTERNAL_TESTS.md` for the frozen membership, exclusions and limits. OCD-BDA mappings are historical only. The label-contract version retains its existing four-class probability semantics; this handoff expands the active source list without changing classifier output order.
+Read `EXTERNAL_TESTS.md` for the frozen membership, exclusions and limits.

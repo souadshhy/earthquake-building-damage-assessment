@@ -179,31 +179,3 @@ def evaluate(data, checkpoint, split, output, allow_feasibility=False):
                               for r, y, k, p in zip(subset, truth, predicted, probabilities)]}
     write_json(output, result)
     return result["classifier"]
-
-
-def evaluate_ebd(data, checkpoint, output):
-    """Four-class external scores on the prespecified paired-quality reference subset."""
-    from .io import read_json
-    from . import CLASSES
-    data = Path(data)
-    manifest = read_json(data / "manifest.json")
-    if manifest.get("decision") != "adopt_for_four_class_external_test":
-        raise ValueError("EBD paired-readiness gate has not passed")
-    for name, digest in manifest["artifact_sha256"].items():
-        if sha256(data / name) != digest:
-            raise ValueError(f"Frozen external manifest changed: {name}")
-    model, saved = load_damage(checkpoint)
-    if saved.get("class_names") != list(CLASSES):
-        raise ValueError("Classifier output order does not match EBD adapter")
-    rows = list(jsonl(data / "paired_verified_regions.jsonl"))
-    if not rows or len({r["class_index"] for r in rows}) != 4:
-        raise ValueError("External subset does not contain all four categories")
-    truth, predicted, probabilities = predict_rows(model, rows, 16, "cpu")
-    result = {"dataset":"ebd_turkey", "split":"external_test", "classes":list(CLASSES),
-              "scope":"paired_quality_screened_reference_regions_not_full_dataset_or_verified_building_instances",
-              "metrics":classification_metrics(truth,predicted), "probability_grouping_used_for_scoring":False,
-              "checkpoint_sha256":sha256(checkpoint), "manifest":manifest,
-              "predictions":[{"building_id":r["building_id"],"truth":y,"prediction":k,"probabilities":p}
-                             for r,y,k,p in zip(rows,truth,predicted,probabilities)]}
-    write_json(output,result)
-    return result["metrics"]

@@ -2,7 +2,7 @@
 
 ## Current decision
 
-Use both frozen audited subsets, with four native categories. Keep the complete eligible subset from each source, rather than adding destroyed examples alone. Neither source enters training, validation, tuning or checkpoint selection. OCD-BDA remains historical and inactive.
+Use both frozen audited subsets, with four native categories. Keep the complete eligible subset from each source, rather than adding destroyed examples alone. Neither source enters training, validation, tuning or checkpoint selection.
 
 | Source | No damage | Minor | Major | Destroyed | Total |
 |---|---:|---:|---:|---:|---:|
@@ -49,9 +49,9 @@ Recheck/build on this preparation laptop:
 python scripts/prepare_team_datasets.py --external suite
 ```
 
-The default external option is now `suite`. Explicit `--external ebd` and `--external ocd` are legacy preparation options and do not describe the current plan. Frozen outputs are checked before reuse.
+The preparation command builds the current HaitiBRD/EBD suite. Frozen outputs are checked before reuse.
 
-On another laptop, install this project and transfer the original xBD archive, EBD archive/provenance and Haiti source files under their release terms. The handoff ZIP excludes raw images, prepared image pixels and weights. Transfer `technical_checks/test_dataset_search/haitibrd/files` as a folder; alternatively use the included public downloader `python scripts/inspect_haitibrd.py --stage download`. EBD download: `python scripts/fetch_ebd_turkey.py`.
+On another laptop, install this project and transfer the original xBD archive, EBD archive/provenance and Haiti source files under their release terms. Git contains code and small source audit metadata; raw images, prepared image pixels and weights transfer separately. Transfer `technical_checks/test_dataset_search/haitibrd/files` as a folder; alternatively use the included public downloader `python scripts/inspect_haitibrd.py --stage download`. EBD download: `python scripts/fetch_ebd_turkey.py`.
 
 Current manifests contain preparation-laptop absolute paths. Before regenerating elsewhere, move the copied generated folders `data/xbd_team_v1`, `data/team_ebd_external_v1`, `data/team_external_tests_v1`, and `data/haitibrd_prepared_v1` outside the checkout as records. Keep the source archives/raw data and supplied Haiti audit records. Run `python scripts/prepare_team_datasets.py --external suite --archive 'D:\datasets\train_images_labels_targets.tar'`. This regenerates paths and hashes; never silently hand-edit frozen membership. Confirm the source-specific counts match the frozen counts above and investigate differences before evaluating.
 

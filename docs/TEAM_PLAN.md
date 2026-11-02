@@ -1,10 +1,9 @@
 # Team plan — earthquake damage and inspection map
 
-Repository entry points: `README.md`, `CONTRIBUTING.md`, `docs/SETUP.md`, `docs/OWNERSHIP.md`. `backend/` and `frontend/` now have starter code; the real job pipeline/map are not complete. Each owner writes in their `reports/` subfolder. The Git repository is the current shared workspace; older ZIPs are snapshots.
 
-## Today's boundary and current position
+## Current implementation
 
-Today is preparation only: datasets/splits, model selection, project specification and four-student task division. **No training today, including a tiny experiment.** The detector checkpoint has passed one-image inference without weight updates. The damage classifier is written but untrained. The API and interactive map remain to be built. Training-laptop GPU/VRAM/RAM/OS are still needed.
+Dataset preparation and model selection are complete. The detector passed a one-image inference check without weight updates. The damage classifier is written but untrained. The backend has a health endpoint and the frontend has starter code; real inference jobs and the interactive map remain to be built. Confirm training-laptop GPU/VRAM/RAM/OS before training.
 
 ## Product
 
@@ -22,7 +21,7 @@ The map has colored geometries, click details, before/after crops, category/tier
 | External Haiti test | HaitiBRD | One original scene / 20 derived crops | 139 screened reference regions |
 | External Türkiye test | EBD | 944 source pairs | 1,461 screened reference regions |
 
-HaitiBRD and EBD are separate held-out external tests. The optional combined result contains 1,600 reference regions, including 14 destroyed. Keep all four classes and original source IDs; report each dataset separately. Türkiye and Haiti never enter training/tuning. Three-category grouping is only the map display. See `EXTERNAL_TESTS.md` for membership, geographic inputs, exclusions and transfer instructions. OCD-BDA remains inactive.
+HaitiBRD and EBD are separate held-out external tests. The optional combined result contains 1,600 reference regions, including 14 destroyed. Keep all four classes and original source IDs; report each dataset separately. Türkiye and Haiti never enter training/tuning. Three-category grouping is only the map display. See `EXTERNAL_TESTS.md` for membership, geographic inputs, exclusions and transfer instructions.
 
 These selected reference regions may contain multiple buildings. Sparse severe examples, annotation provenance and quality-screen selection remain report limitations. xBD Matthew remains primary.
 
@@ -78,9 +77,9 @@ Completion requires reloadable trained damage weights; reproducible partitions/r
 
 ## Preparation and later commands
 
-See `EXTERNAL_TESTS.md` for download, transfer and path regeneration. Do not reuse preparation-laptop absolute paths on another machine. Source handoff excludes raw images and weights.
+See `EXTERNAL_TESTS.md` for download, transfer and path regeneration. Do not reuse preparation-laptop absolute paths on another machine. Git excludes raw images, weights and generated run outputs.
 
-Later, after hardware/data checks (not executed today):
+After hardware/data checks, when beginning the training stage:
 
 ```powershell
 python -m quake.cli train --data data/xbd_team_v1 --output runs/tiny_paired --tiny

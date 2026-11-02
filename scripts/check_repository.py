@@ -4,7 +4,7 @@ import subprocess
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
-BLOCKED={"data","weights","runs","runtime","node_modules",".venv","deliverables","review_ui"}
+BLOCKED={"data","weights","runs","runtime","node_modules",".venv"}
 
 
 def main():

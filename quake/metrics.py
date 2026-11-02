@@ -22,12 +22,6 @@ def classification_metrics(labels, predictions):
             "macro_f1_policy": "All four classes; absent-class F1 is zero and flagged unsupported."}
 
 
-def aggregate_turkiye(probabilities):
-    """Legacy display grouping only; never use for the four-class EBD scores."""
-    from .labels import common_probabilities
-    return common_probabilities(probabilities)
-
-
 def match_polygons(predictions, references, threshold=.5):
     """Maximum-cardinality one-to-one matching, then maximize eligible IoU."""
     ious = np.zeros((len(predictions), len(references)))

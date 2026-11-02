@@ -5,10 +5,9 @@ from quake.labels import common_label, common_probabilities, display_result
 
 def test_native_mappings_and_exclusions():
     assert [common_label("xbd", c) for c in ("no-damage", "minor-damage", "major-damage", "destroyed")] == [0,1,1,2]
-    assert [common_label("ocd_bda", c) for c in ("2","1","0")] == [0,1,2]
     assert common_label("xbd", "un-classified") is None
     with pytest.raises(ValueError):
-        common_label("ocd_bda", "5")
+        common_label("unknown", "5")
 
 
 def test_sum_before_argmax_not_remap_hard_label():
@@ -29,12 +28,11 @@ def test_invalid_probabilities_rejected(p):
 def test_machine_contract_matches_code():
     import json
     from pathlib import Path
-    from quake.labels import VERSION, COMMON_CLASSES, XBD_TO_COMMON, OCD_TO_COMMON
+    from quake.labels import VERSION, COMMON_CLASSES, XBD_TO_COMMON
     contract = json.loads((Path(__file__).resolve().parents[1] / "configs/label_contract.json").read_text())
     assert contract["version"] == VERSION
     assert contract["common_class_order"] == list(COMMON_CLASSES)
     assert contract["xbd_native_to_common"] == XBD_TO_COMMON
-    assert contract["ocd_native_id_to_common"] == OCD_TO_COMMON
     assert contract["native_taxonomies_equivalent"] is False
     assert contract["active_external_dataset"] == "haitibrd_and_ebd_external_suite"
     assert contract["source_specific_reporting_required"] is True

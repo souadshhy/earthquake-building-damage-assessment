@@ -22,7 +22,7 @@ Four native classes, in order: no-damage, minor-damage, major-damage, destroyed.
 | External test | HaitiBRD 2010 earthquake | 139 reference regions: 83/32/16/8 |
 | External test | EBD Türkiye 2023 earthquake | 1,461 reference regions: 1,433/19/3/6 |
 
-External count order is no/minor/major/destroyed. Optional pooled result: 1,600 regions, support 1,516/51/19/14. Retain all four classes from both sources; no destroyed-only additions or oversampling. Separate source results are mandatory; pooling is supplementary. Neither external source enters training, validation, tuning or checkpoint selection. OCD-BDA is historical/inactive.
+External count order is no/minor/major/destroyed. Optional pooled result: 1,600 regions, support 1,516/51/19/14. Retain all four classes from both sources; no destroyed-only additions or oversampling. Separate source results are mandatory; pooling is supplementary. Neither external source enters training, validation, tuning or checkpoint selection.
 
 Source annotations have different provenance: manual satellite interpretation for Haiti, model-assisted/manual-corrected for EBD. Both document xBD-style criteria; do not claim identical annotation reliability or field-engineering truth. Haiti is one small original scene with twenty derived crops; those are not twenty independent scenes. Raw advertised building totals do not equal available classifier instances.
 
@@ -38,7 +38,7 @@ The team goal is one real image pair → detected regions → genuine trained da
 
 All paths below are relative to the repository root. Read the actual files before editing; do not rely only on this document. Read README.md, docs/handbook/STUDENT_PROJECT_GUIDE.md, docs/OWNERSHIP.md, docs/SETUP.md, docs/EXTERNAL_TESTS.md, docs/LABEL_CONTRACT.md, configs/dataset_roles.json and contracts/API.md as relevant.
 
-This file provides project context and role boundaries. Follow the student's current request and newer agreed repository decisions; do not treat an older planning note as overriding an explicit current instruction. When this file is first provided, inspect the repository and establish the student's immediate task. Do not launch training, large downloads or unrelated implementation merely because they appear in the plan. Preparation so far ran no damage training. If the student explicitly requests the next authorized training stage, work within that stage and the hardware/data constraints.
+This file provides project context and role boundaries. Follow the student's current request and the agreed repository configuration. When this file is first provided, inspect the repository and establish the student's immediate task. Do not launch training, large downloads or unrelated implementation merely because they appear in the plan. Preparation so far ran no damage training. If the student explicitly requests the next authorized training stage, work within that stage and the hardware/data constraints.
 
 Work on a branch, preserve teammates' changes and coordinate shared contracts/configuration/dependency edits. Own your module and matching report section; do not independently redesign the whole project. Keep interfaces backward compatible where feasible and update an example with any agreed change. Never fabricate model results, civil approval, geographic coordinates, tests or implemented endpoints.
 

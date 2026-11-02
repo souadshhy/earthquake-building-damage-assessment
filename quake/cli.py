@@ -25,10 +25,6 @@ def main():
     evaluation.add_argument("--split", choices=("train", "validation", "test"), required=True)
     evaluation.add_argument("--output", required=True)
     evaluation.add_argument("--allow-feasibility", action="store_true")
-    external = commands.add_parser("evaluate-ebd")
-    external.add_argument("--data", default="data/team_ebd_external_v1")
-    external.add_argument("--checkpoint", required=True)
-    external.add_argument("--output", required=True)
     suite = commands.add_parser("evaluate-external")
     suite.add_argument("--data", default="data/team_external_tests_v1")
     suite.add_argument("--checkpoint", required=True)
@@ -45,9 +41,6 @@ def main():
     elif args.command == "evaluate-external":
         from .external import evaluate_external
         print(evaluate_external(args.data,args.checkpoint,args.output,args.include_combined))
-    elif args.command == "evaluate-ebd":
-        from .training import evaluate_ebd
-        print(evaluate_ebd(args.data,args.checkpoint,args.output))
     else:
         from .training import evaluate
         print(evaluate(args.data, args.checkpoint, args.split, args.output, args.allow_feasibility))

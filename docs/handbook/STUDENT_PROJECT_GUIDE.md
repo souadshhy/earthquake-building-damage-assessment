@@ -88,8 +88,6 @@ A dataset contains images and their reference answers. An annotation describes a
 
 **EBD Türkiye** covers the 2023 Türkiye earthquake and documents xBD-style categories. The source archive has 944 image pairs. Labels were produced with model assistance and manual correction. We have no established geographic coordinates for its supplied PNGs, so we use it for external classification testing, not invented map placement.
 
-OCD-BDA was considered earlier. It is no longer an active dataset because its original labels did not preserve our required minor/major distinction.
-
 ### Why do we train partly on hurricanes for an earthquake application?
 
 The available hurricane events provide many labeled examples of visible damage across all four categories. Mexico earthquake examples are also included in training. We then test transfer to different events, including Haiti and Türkiye earthquakes.
