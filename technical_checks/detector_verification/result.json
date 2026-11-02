@@ -1,0 +1,21 @@
+{
+  "training_performed": false,
+  "weight_updates": 0,
+  "checkpoint_loaded_strictly": true,
+  "weights_only_loader": true,
+  "checkpoint_sha256": "d80e9a49d3001d1f152b82bf38e14bb5dc0b1b1b3f62a4b88c25a2a13e9643b3",
+  "device": "cpu",
+  "image": "mexico-earthquake_00000017_pre_disaster",
+  "image_partition": "train",
+  "probability_range": [
+    1.0915207894868217e-05,
+    0.9980411529541016
+  ],
+  "predicted_building_pixels": 538816,
+  "binary_connected_regions": 170,
+  "sample_binary_mask_iou": 0.6787411206542537,
+  "elapsed_seconds": 2.8207314999890514,
+  "normalization": "per-original-tile RGB mean and population standard deviation after /255, as in upstream loader",
+  "tiling": "256x256 nonoverlapping chips; no test-set threshold tuning",
+  "limitations": "Single training-image inference sanity check, not generalization or individual-building accuracy. Connected regions are not guaranteed individual buildings. Upstream xBD training overlap assumed. Chip seams and normalization still need wider validation."
+}

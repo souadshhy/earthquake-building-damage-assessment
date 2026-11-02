@@ -1,0 +1,432 @@
+[
+  {
+    "relative_path": "HaitiBRD_readme.pdf",
+    "bytes": 147918,
+    "sha256": "fc980fa0b641f01ba83b9c25528cc6d33dc49fcbc944a9a3a9f892da8db34e24"
+  },
+  {
+    "relative_path": "Labeled_image_HaitiBRD.png",
+    "bytes": 831542,
+    "sha256": "e99a47686040bce9591cd0428dbbc2f03c5ac9f9d5ef3b9243f755001b7f92f4"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000001_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "1b77409bf9fb7aa88efd6ad49f7f034982e6cbca345463a8beb760c85330bf74"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000001_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "3a4a47469b46aeb767671d58b2ae10acd4ebd8bfe0085a199b90d6ad78bad88e"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000002_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "c466d72826d8db6bd7ea7a4769372ae30d733d62b2f3ea6483722f0ac0ac2a34"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000002_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "23104c92d5199380b63027bd7b4f4ee784c5e63668c3851d0cb565a977589be0"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000003_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "702ca14b5ba0ed8786d239c21044bf07b6bb26320c587109a734341a56eba4c4"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000003_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "135167531a85865115d936305e0c7a5c9db62b328507ba33f4195a8ae31b8d4c"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000004_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "cdd4836d37897d246c1fcb2705ed70a6f057183ec863f91edbd56e195d4a8c01"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000004_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "7707075574c5ff0c3ecc59ec429e250e002902e703154604245c71dff414232a"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000005_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "b4aba32e4922adfe65cb62ac70b743af6433a0d29d0ecdc676432bae3c3f5f21"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000005_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "36598c8290a4ebb865daca04c3f53cb39201026f8f0b0e49d2fb699d0c0510d9"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000006_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "924ae638a25128734f67ff0fbe8b27d05a516b231fbc88df4fc62c8829e96ba4"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000006_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "2641e82fa641d2b69ab0cc18a25565ed2742986766ef41dcf9ad6c15cface46d"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000007_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "1389486cf36f67d063e381a2ca36e7647915d1497f4fd021874050b248fbf72a"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000007_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "0537e448a73731d53578179d026945d608b98a7cf14df5b5840a082c712a0a09"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000008_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "31c489de91aa0c4e7dad3c1a3dc35b4ba0c612ef72da42ba85e5590c41b3165a"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000008_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "a2321f6adda55b6c14336e8af2e3d2a31dc4ff71f78d4092c699c9c2bf7e1f88"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000009_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "1f8aa2c17622fab0cf403adfb078d8c2193f49918f0b44a9e79c7363575af8e4"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000009_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "91640919a7039dfa0469abfccfeccbf48458eb026209f9f74c41168a5b10f45c"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000010_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "29b544f7f6838e703e4ece877fc964969b181cc9e5f8cd91b7ba61f773281c36"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000010_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "eca2c4fa274d9c3bf0440beb30b2d094e75bcef3ef5f20ecbde34b19256f314c"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000011_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "a17901a1611e5871398ed84d76e99c8ed5d0c2d441d8726a4d4192af4d01982a"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000011_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "c9aaa347dd0f4922e51efc03d9fb95a697952375c604a25e7794f96c84979349"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000012_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "42c5e6b02fdc3d61ca7368feeec9d2d4a6cc7699bd85c2fb275f18272815bcb2"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000012_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "099c934deff6003fb89e11e18bdc3df94186512844b52287e3b5fc4f507d60a4"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000013_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "2877c68f38fdb48f49fa817260972478a2fba61faa8915891dadf905569d3a92"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000013_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "840006c305fa16c3e28f1d82955c62509141b6bc2cf54cfd5149a1e0377a5d26"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000014_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "20d5d6d3e144968327c2b40c7fae772ef9007d0e3c0b8dbbe4948212ddbd8007"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000014_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "2d3e1da6ac547401b5f380f5421a40491c7134a204a651b76525e3b870e380b7"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000015_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "2be20433fb6ae93b0e5ed7c6c0ad7aa5438389aea3134e6eeaf2e2e8cea2960e"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000015_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "87ce11adf28ad479357f4d20a612f97e0066c97d942f83c8b41c7ef9d9a3a93c"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000016_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "205f62d65e0959a629f6ca5f620d5148bcd7a9b49bed156e5d541e75c8088d73"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000016_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "1d37a9fdddda9b9e3e883fe9333f824d14c177db5ff81f8f88c58525de1a6b93"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000017_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "83652604f7e44332485068f508940bd81197e8c8d6086807859d0449f849fbd4"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000017_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "7a99c267cd80052de01c50f2003b919eb126d91940badd8278ca2a0ee5b0ffff"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000018_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "537626d20b41b15e43170a69eb6c31ed94c9b4c1051202aea7cbaacb70d328fb"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000018_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "ddeac0db4c11059d7720a5c015ca7938a03b86ba3c2da6f76388a7f0694a0fa8"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000019_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "99ce30bfb6db1351cffaead55296b36d157b1938284b0f0db4d27d5cf3a77b92"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000019_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "ad6ffe6754485fda460b31a08485c3a0610d1bc75efff0a7697aa71d4d6feb44"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000020_post_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "b81c1dc5794d100a3e294240fdd6f1e997e9f473edf601c12cb3f48002aeb456"
+  },
+  {
+    "relative_path": "cropped/images/haiti-earthquake_000020_pre_disaster.tif",
+    "bytes": 4197770,
+    "sha256": "f3b3505e63c84d503b11c88a75fd4aa4502c4726a26c1482d32531e46c15dc06"
+  },
+  {
+    "relative_path": "original/images/haiti-earthquake_post_disaster.tif",
+    "bytes": 56339594,
+    "sha256": "053f43f4134c2dced394779e923fdff65231d0862d706ba5302b20f8eeb3661b"
+  },
+  {
+    "relative_path": "original/images/haiti-earthquake_pre_disaster.tif",
+    "bytes": 56339594,
+    "sha256": "7502bcd1d3304a67805cc5f5cf7f40a660284ac42bf4ffb670b78e1c28725832"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000001_post_disaster_target.png",
+    "bytes": 36482,
+    "sha256": "d4de01c5eee08ed3c6744eb37293625044e6fee107f6da8772efcb506b38d4f0"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000001_pre_disaster_target.png",
+    "bytes": 26859,
+    "sha256": "ea3f40ad8f59eddecc6f5234cf556bb99b807dd9eb8bc78228b6644542eed85e"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000002_post_disaster_target.png",
+    "bytes": 72855,
+    "sha256": "13bc0ec92f45ccc11f4804d23eec219107dc205d3b80c65dfec27f6c84928469"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000002_pre_disaster_target.png",
+    "bytes": 43892,
+    "sha256": "ab7db3d12087be51a21aad50ed0a7d1498e1da65345da4a13504e5cc066ff23b"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000003_post_disaster_target.png",
+    "bytes": 66633,
+    "sha256": "229cf690fa53a81d9a1baea1a26a8a5de172b0366875cb0d81b1aeaba46970f6"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000003_pre_disaster_target.png",
+    "bytes": 37946,
+    "sha256": "e1f6b5e95e2331639e09a47b62fa4f9f975c447e4d7c8262861eab3ea51a85b3"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000004_post_disaster_target.png",
+    "bytes": 71158,
+    "sha256": "b6e8182fc5de18edfbc229b1aec8835f70fc03b0dda492607fd9ef6df6d53341"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000004_pre_disaster_target.png",
+    "bytes": 41431,
+    "sha256": "bdef3521197a4303442b38b8907b72c6886c695496f19d3401b5ac61730d4e30"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000005_post_disaster_target.png",
+    "bytes": 30789,
+    "sha256": "941cb1640c67595dbb2b955ce8a1c3ce9781d2ee36c4284be6605c1d36ca76a0"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000005_pre_disaster_target.png",
+    "bytes": 23693,
+    "sha256": "9ba9602ddf9986e75232558d0179df671f2cf8f4d9d217afc7d523e7ae8f3608"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000006_post_disaster_target.png",
+    "bytes": 51857,
+    "sha256": "18d7f71f7c94b4f207408e747115c7e1250592033de4a8646adba7b796c1c0a3"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000006_pre_disaster_target.png",
+    "bytes": 37086,
+    "sha256": "b64b61a341e4902c17c4daac1d224ae6126f62af995b815a44784c5eb8a35f98"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000007_post_disaster_target.png",
+    "bytes": 77273,
+    "sha256": "402f018e26d08e2e31d13e2d02f4575a6e785ca17eef2d6db67674619cf022b5"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000007_pre_disaster_target.png",
+    "bytes": 49172,
+    "sha256": "f86a101f8c9faff84341cdfd60a54d9042c5052feb9fbb2e4fa20e5106ec38ba"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000008_post_disaster_target.png",
+    "bytes": 68993,
+    "sha256": "a04f624bc4729b61f78c34d5b6ecceebb69b48c7c50502ccecad119b226734be"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000008_pre_disaster_target.png",
+    "bytes": 44114,
+    "sha256": "ad12cbd7c4f5e6a104a4b0bc4f710c2ff89fb282fb114b2fc10653def28615ec"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000009_post_disaster_target.png",
+    "bytes": 67412,
+    "sha256": "b7d6a8ba4672cbc690b717994af907f40fbbf1371f9d1a117c361fbd14e7ab6a"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000009_pre_disaster_target.png",
+    "bytes": 36156,
+    "sha256": "ff89a5f92e8635c5cf9b09c1ac7c22812a3d95c87257e532825466a430cd3f4c"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000010_post_disaster_target.png",
+    "bytes": 31219,
+    "sha256": "6309099e14253ca28ad839e38327fa1bc72f5f62e4197499047fa0ed41f1409a"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000010_pre_disaster_target.png",
+    "bytes": 20246,
+    "sha256": "16a8d0d597e7d71e6d563edabef06f0978164746849676beccf0b8c791c8abd7"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000011_post_disaster_target.png",
+    "bytes": 52311,
+    "sha256": "8ea9444aa161de53db54074a2f6ef16a3d60359b2f445792bfad5072727867af"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000011_pre_disaster_target.png",
+    "bytes": 35959,
+    "sha256": "9673047d157f022950b81ad51af8cc0b7c10d4584606795b00240828b709f667"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000012_post_disaster_target.png",
+    "bytes": 78079,
+    "sha256": "f8b6ed7b4a9c1084b112401d535cce593f2aeb9ac7c31145ae1e096f7c0911cf"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000012_pre_disaster_target.png",
+    "bytes": 51758,
+    "sha256": "c55afd08a0a83aab3d9bf2b7f4cf1121721e90c52ce8feb3e1daaf7ca0a2d2cb"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000013_post_disaster_target.png",
+    "bytes": 42713,
+    "sha256": "754abc27af8c780e90d6b77cfffbd1bfcdcf903e1255c2f6eb73ef79e5718709"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000013_pre_disaster_target.png",
+    "bytes": 29894,
+    "sha256": "3c73c683195750e870258def42e7781872802a524842b387f3d6dae50ce5000f"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000014_post_disaster_target.png",
+    "bytes": 81681,
+    "sha256": "f78a4f85c90790c66ae855bfa554f34584ee8d8953b968408ae2220bb4c7f6c6"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000014_pre_disaster_target.png",
+    "bytes": 54020,
+    "sha256": "744ef551e95283b240d4c39ae7fcab68628466e21b6df8e50d9b74d08058e63e"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000015_post_disaster_target.png",
+    "bytes": 26297,
+    "sha256": "c07fae26e8145891b4902e273d228b39eb2b7a2a952fdfe48bb61585395a3aa2"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000015_pre_disaster_target.png",
+    "bytes": 19998,
+    "sha256": "beb4d13776031593d786e89b3cc1eb3754b9030ca70b5aa3768f13c1a6822616"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000016_post_disaster_target.png",
+    "bytes": 15636,
+    "sha256": "c7700908d3acf0c06246e1fdf8c43ef8dd8cf65fa91078636cfcfc55ea7d8696"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000016_pre_disaster_target.png",
+    "bytes": 13189,
+    "sha256": "0386ef616eaf2d92888afd84c742171fe850a7775fd26feb8feacc844422da92"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000017_post_disaster_target.png",
+    "bytes": 9722,
+    "sha256": "6806b500be8a1e0a93cac8d9cf3220904dcf77555fb1cf540a84e8172093b5d4"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000017_pre_disaster_target.png",
+    "bytes": 12807,
+    "sha256": "9893b6c7189055584efac812aa8265a582f52a0f2b0b52d1e3e70edcbcc07c29"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000018_post_disaster_target.png",
+    "bytes": 17689,
+    "sha256": "7bb11ca483ad0215f3194621fa94588f001de43c697bd1f86e5faabfa3121a8f"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000018_pre_disaster_target.png",
+    "bytes": 8948,
+    "sha256": "3ff81b645d377d3e888d1abecedeb012284ce1641fc19fe08dd8e08c17d27d85"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000019_post_disaster_target.png",
+    "bytes": 12615,
+    "sha256": "3f5b507676c2abba6a374f98be0eed79817843d123a19f88e6c0202a8bbd19ae"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000019_pre_disaster_target.png",
+    "bytes": 14767,
+    "sha256": "aed78ad3745f177caf6a60f0f731430c2c6455e77a60246e00fc501bf45c8f96"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000020_post_disaster_target.png",
+    "bytes": 15759,
+    "sha256": "30f994a8093ece729261cc79ac1fb6b540eadc36a1b495f08015cbaf07d3753d"
+  },
+  {
+    "relative_path": "cropped/labels/buildings/haiti-earthquake_000020_pre_disaster_target.png",
+    "bytes": 10921,
+    "sha256": "d6e420793b330f803163935b93abf8f27a841d783949e1e7ad6ab981a35cbc51"
+  },
+  {
+    "relative_path": "original/labels/buildings/haiti-earthquake_post_disaster_target.png",
+    "bytes": 397844,
+    "sha256": "6f9d0f87b1eae777e96b5a42fa35f15700ffc1365d57b01768c1559a5f264b6f"
+  },
+  {
+    "relative_path": "original/labels/buildings/haiti-earthquake_pre_disaster_target.png",
+    "bytes": 219925,
+    "sha256": "f23c2127d88f83ab42e083a62902ad134a54911ca377855225c8329add7a3700"
+  }
+]

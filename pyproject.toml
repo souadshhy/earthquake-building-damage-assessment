@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quake-inspect"
+version = "0.1.0"
+description = "Local image-based building damage assessment research prototype"
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.7,<2.8", "torchvision>=0.22,<0.23", "numpy>=1.26,<3",
+  "Pillow>=10", "fastapi>=0.115,<1", "uvicorn>=0.30,<1",
+  "python-multipart>=0.0.20", "rasterio>=1.4,<2", "shapely>=2,<3",
+  "scipy>=1.13,<2", "pydantic>=2,<3", "opencv-python-headless>=4.10,<5"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[project.scripts]
+quake = "quake.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["quake*", "backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

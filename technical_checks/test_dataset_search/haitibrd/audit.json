@@ -1,0 +1,148 @@
+{
+  "dataset": "HaitiBRD",
+  "release_version": 2,
+  "source_doi": "10.17603/ds2-fqat-4v02",
+  "source_files_verified": 86,
+  "full_scene_pair_count": 1,
+  "cropped_pair_count": 20,
+  "original_rasters": [
+    {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\original\\images\\haiti-earthquake_pre_disaster.tif",
+      "shape": [
+        3200,
+        4400
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.349327857,
+        0.0,
+        -4.619907187500827e-06,
+        18.55575075
+      ],
+      "bounds": [
+        -72.349327857,
+        18.540967047,
+        -72.329000266,
+        18.55575075
+      ]
+    },
+    {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\original\\images\\haiti-earthquake_post_disaster.tif",
+      "shape": [
+        3200,
+        4400
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.349328869,
+        0.0,
+        -4.619907187499717e-06,
+        18.555751227
+      ],
+      "bounds": [
+        -72.349328869,
+        18.540967524,
+        -72.329001278,
+        18.555751227
+      ]
+    }
+  ],
+  "decoded_severity_codes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "original_png_palette_index_to_severity_code": {
+    "0": 0,
+    "1": 3,
+    "2": 1,
+    "3": 2,
+    "4": 4
+  },
+  "original_grid_offset_pixels": [
+    0.21905202604973387,
+    0.10324882675678689
+  ],
+  "original_mask_pixels": [
+    6944454,
+    2636343,
+    2605795,
+    1130618,
+    762790
+  ],
+  "post_mask_connected_regions_before_filtering": [
+    530,
+    378,
+    211,
+    215
+  ],
+  "clean_reference_region_counts": [
+    332,
+    125,
+    49,
+    45
+  ],
+  "clean_reference_regions": 551,
+  "excluded_regions": 210,
+  "exclusion_reasons": {
+    "border_truncated_region": 26,
+    "mixed_or_missing_damage_class": 190,
+    "region_area_below_16_pixels": 1,
+    "localization_damage_coverage_below_0_95": 2
+  },
+  "paired_screen_region_counts": [
+    83,
+    32,
+    16,
+    8
+  ],
+  "paired_screen_regions": 139,
+  "alignment_tile_status": {
+    "consistent_same_grid": 19,
+    "inconclusive": 1
+  },
+  "original_crop_consistency_counts": {
+    "True": 15,
+    "False": 5
+  },
+  "inconsistent_crops_excluded_from_paired_screen": [
+    "haiti-earthquake_000016",
+    "haiti-earthquake_000017",
+    "haiti-earthquake_000018",
+    "haiti-earthquake_000019",
+    "haiti-earthquake_000020"
+  ],
+  "no_overlapping_crop_owners_for_reference_centers": true,
+  "geographic_overlap_with_prepared_xbd_pairs": [],
+  "exact_source_matches_with_xbd": [],
+  "training_performed": false,
+  "damage_model_loaded": false,
+  "limitations": [
+    "One earthquake and one small original scene; twenty crops are not independent scenes",
+    "Semantic reference regions may merge adjacent buildings; not verified building-instance counts",
+    "Manual satellite-image labels are not field-engineering truth",
+    "Feature checks are technical diagnostics, not certified objectwise alignment",
+    "Four-band RGB+alpha imagery and slightly different grids need RGB selection and common-grid preprocessing",
+    "Subset selection can favor easier regions; report full counts and selected support"
+  ]
+}

@@ -1,0 +1,1962 @@
+[
+  {
+    "pair_id": "haiti-earthquake_000001",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000001_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.349327857,
+        0.0,
+        -4.619907187500827e-06,
+        18.55575075
+      ],
+      "bounds": [
+        -72.349327857,
+        18.551019965040002,
+        -72.34459707218545,
+        18.55575075
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000001_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.349328869,
+        0.0,
+        -4.619907187499717e-06,
+        18.555751227
+      ],
+      "bounds": [
+        -72.349328869,
+        18.55102044204,
+        -72.34459808418546,
+        18.555751227
+      ]
+    },
+    "original_pixel_offset": [
+      0,
+      0
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 89,
+      "inliers": 69,
+      "coverage": 0.3995558433791349,
+      "median_displacement_pixels": 5.558841705322266,
+      "scale": 0.9960035600606343,
+      "affine_before_to_after": [
+        [
+          0.9959976376875991,
+          -0.0034347305832796316,
+          -1.2666399443207133
+        ],
+        [
+          0.0034347305832796316,
+          0.9959976376875991,
+          -4.4740065871404955
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000002",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000002_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.34459707218545,
+        0.0,
+        -4.619907187500827e-06,
+        18.55575075
+      ],
+      "bounds": [
+        -72.34459707218545,
+        18.551019965040002,
+        -72.3398662873709,
+        18.55575075
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000002_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.34459808418546,
+        0.0,
+        -4.619907187499717e-06,
+        18.555751227
+      ],
+      "bounds": [
+        -72.34459808418546,
+        18.55102044204,
+        -72.33986729937092,
+        18.555751227
+      ]
+    },
+    "original_pixel_offset": [
+      1024,
+      0
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 67,
+      "inliers": 55,
+      "coverage": 0.6527437073409594,
+      "median_displacement_pixels": 6.476718425750732,
+      "scale": 1.0025157051440865,
+      "affine_before_to_after": [
+        [
+          1.002509686714308,
+          -0.0034737738160294826,
+          -4.566341294028081
+        ],
+        [
+          0.0034737738160294826,
+          1.002509686714308,
+          -6.327700380597688
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000003",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000003_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33986628737091,
+        0.0,
+        -4.619907187500827e-06,
+        18.55575075
+      ],
+      "bounds": [
+        -72.33986628737091,
+        18.551019965040002,
+        -72.33513550255635,
+        18.55575075
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000003_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33986729937091,
+        0.0,
+        -4.619907187499717e-06,
+        18.555751227
+      ],
+      "bounds": [
+        -72.33986729937091,
+        18.55102044204,
+        -72.33513651455637,
+        18.555751227
+      ]
+    },
+    "original_pixel_offset": [
+      2048,
+      0
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 51,
+      "inliers": 40,
+      "coverage": 0.6993091705831052,
+      "median_displacement_pixels": 5.92857551574707,
+      "scale": 1.001766420718209,
+      "affine_before_to_after": [
+        [
+          1.001765786968547,
+          -0.0011268264550610414,
+          -3.7183939288089065
+        ],
+        [
+          0.0011268264550610414,
+          1.001765786968547,
+          -5.1822409047186095
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000004",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000004_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33513550255635,
+        0.0,
+        -4.619907187500827e-06,
+        18.55575075
+      ],
+      "bounds": [
+        -72.33513550255635,
+        18.551019965040002,
+        -72.3304047177418,
+        18.55575075
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000004_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33513651455637,
+        0.0,
+        -4.619907187499717e-06,
+        18.555751227
+      ],
+      "bounds": [
+        -72.33513651455637,
+        18.55102044204,
+        -72.33040572974183,
+        18.555751227
+      ]
+    },
+    "original_pixel_offset": [
+      3072,
+      0
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 72,
+      "inliers": 63,
+      "coverage": 0.8148506350402945,
+      "median_displacement_pixels": 5.229278087615967,
+      "scale": 0.9999583373470141,
+      "affine_before_to_after": [
+        [
+          0.9999583243567888,
+          0.00016118116567680985,
+          -2.922585788890935
+        ],
+        [
+          -0.00016118116567680985,
+          0.9999583243567888,
+          -4.297212882802306
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000005",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000005_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33040471774181,
+        0.0,
+        -4.619907187500827e-06,
+        18.55575075
+      ],
+      "bounds": [
+        -72.33040471774181,
+        18.551019965040002,
+        -72.32567393292726,
+        18.55575075
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000005_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33040572974183,
+        0.0,
+        -4.619907187499717e-06,
+        18.555751227
+      ],
+      "bounds": [
+        -72.33040572974183,
+        18.55102044204,
+        -72.32567494492729,
+        18.555751227
+      ]
+    },
+    "original_pixel_offset": [
+      4096,
+      0
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 112,
+      "inliers": 94,
+      "coverage": 0.2290100662500842,
+      "median_displacement_pixels": 5.516690731048584,
+      "scale": 1.000640047371701,
+      "affine_before_to_after": [
+        [
+          1.0006373197201703,
+          0.002336404775142016,
+          -3.9794491296817123
+        ],
+        [
+          -0.002336404775142016,
+          1.0006373197201703,
+          -4.3949183523380215
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000006",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000006_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.349327857,
+        0.0,
+        -4.619907187500827e-06,
+        18.551019965040002
+      ],
+      "bounds": [
+        -72.349327857,
+        18.546289180080002,
+        -72.34459707218545,
+        18.551019965040002
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000006_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.349328869,
+        0.0,
+        -4.619907187499717e-06,
+        18.55102044204
+      ],
+      "bounds": [
+        -72.349328869,
+        18.54628965708,
+        -72.34459808418546,
+        18.55102044204
+      ]
+    },
+    "original_pixel_offset": [
+      0,
+      1024
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 95,
+      "inliers": 67,
+      "coverage": 0.6494469320010666,
+      "median_displacement_pixels": 5.788251876831055,
+      "scale": 0.9949126659649228,
+      "affine_before_to_after": [
+        [
+          0.9949085566275316,
+          -0.0028595186223782966,
+          -1.716161745892973
+        ],
+        [
+          0.0028595186223782966,
+          0.9949085566275316,
+          -3.9306021679736536
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000007",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000007_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.34459707218545,
+        0.0,
+        -4.619907187500827e-06,
+        18.551019965040002
+      ],
+      "bounds": [
+        -72.34459707218545,
+        18.546289180080002,
+        -72.3398662873709,
+        18.551019965040002
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000007_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.34459808418546,
+        0.0,
+        -4.619907187499717e-06,
+        18.55102044204
+      ],
+      "bounds": [
+        -72.34459808418546,
+        18.54628965708,
+        -72.33986729937092,
+        18.55102044204
+      ]
+    },
+    "original_pixel_offset": [
+      1024,
+      1024
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 48,
+      "inliers": 34,
+      "coverage": 0.4754142924410856,
+      "median_displacement_pixels": 7.057496070861816,
+      "scale": 1.0008629364356827,
+      "affine_before_to_after": [
+        [
+          1.000862712218117,
+          -0.0006699418275096223,
+          -5.340572008302982
+        ],
+        [
+          0.0006699418275096223,
+          1.000862712218117,
+          -5.334278391728612
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000008",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000008_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33986628737091,
+        0.0,
+        -4.619907187500827e-06,
+        18.551019965040002
+      ],
+      "bounds": [
+        -72.33986628737091,
+        18.546289180080002,
+        -72.33513550255635,
+        18.551019965040002
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000008_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33986729937091,
+        0.0,
+        -4.619907187499717e-06,
+        18.55102044204
+      ],
+      "bounds": [
+        -72.33986729937091,
+        18.54628965708,
+        -72.33513651455637,
+        18.55102044204
+      ]
+    },
+    "original_pixel_offset": [
+      2048,
+      1024
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 75,
+      "inliers": 53,
+      "coverage": 0.6924196953523768,
+      "median_displacement_pixels": 6.476179599761963,
+      "scale": 1.0012254588569462,
+      "affine_before_to_after": [
+        [
+          1.001221138032685,
+          -0.0029414655934924044,
+          -4.135585286678624
+        ],
+        [
+          0.0029414655934924044,
+          1.001221138032685,
+          -5.879921666991398
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000009",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000009_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33513550255635,
+        0.0,
+        -4.619907187500827e-06,
+        18.551019965040002
+      ],
+      "bounds": [
+        -72.33513550255635,
+        18.546289180080002,
+        -72.3304047177418,
+        18.551019965040002
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000009_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33513651455637,
+        0.0,
+        -4.619907187499717e-06,
+        18.55102044204
+      ],
+      "bounds": [
+        -72.33513651455637,
+        18.54628965708,
+        -72.33040572974183,
+        18.55102044204
+      ]
+    },
+    "original_pixel_offset": [
+      3072,
+      1024
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 50,
+      "inliers": 37,
+      "coverage": 0.491531490289205,
+      "median_displacement_pixels": 4.076260089874268,
+      "scale": 1.0049729484023906,
+      "affine_before_to_after": [
+        [
+          1.004972537824898,
+          -0.0009084263196877254,
+          -2.4405698364877266
+        ],
+        [
+          0.0009084263196877254,
+          1.004972537824898,
+          -5.111583446468359
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000010",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000010_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33040471774181,
+        0.0,
+        -4.619907187500827e-06,
+        18.551019965040002
+      ],
+      "bounds": [
+        -72.33040471774181,
+        18.546289180080002,
+        -72.32567393292726,
+        18.551019965040002
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000010_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33040572974183,
+        0.0,
+        -4.619907187499717e-06,
+        18.55102044204
+      ],
+      "bounds": [
+        -72.33040572974183,
+        18.54628965708,
+        -72.32567494492729,
+        18.55102044204
+      ]
+    },
+    "original_pixel_offset": [
+      4096,
+      1024
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882675678689
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 57,
+      "inliers": 44,
+      "coverage": 0.14674302999765204,
+      "median_displacement_pixels": 4.069301605224609,
+      "scale": 1.0012933952911653,
+      "affine_before_to_after": [
+        [
+          1.0012933532824002,
+          0.0002900451626937919,
+          -1.7040636307607073
+        ],
+        [
+          -0.0002900451626937919,
+          1.0012933532824002,
+          -3.907389058756384
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000011",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000011_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.349327857,
+        0.0,
+        -4.619907187500827e-06,
+        18.54628918008
+      ],
+      "bounds": [
+        -72.349327857,
+        18.54155839512,
+        -72.34459707218545,
+        18.54628918008
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000011_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.349328869,
+        0.0,
+        -4.619907187499717e-06,
+        18.54628965708
+      ],
+      "bounds": [
+        -72.349328869,
+        18.54155887212,
+        -72.34459808418546,
+        18.54628965708
+      ]
+    },
+    "original_pixel_offset": [
+      0,
+      2048
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 89,
+      "inliers": 79,
+      "coverage": 0.6769282906432219,
+      "median_displacement_pixels": 5.562186241149902,
+      "scale": 0.9967327056604846,
+      "affine_before_to_after": [
+        [
+          0.9967327022127698,
+          -8.290295628089923e-05,
+          -2.63235705706216
+        ],
+        [
+          8.290295628089923e-05,
+          0.9967327022127698,
+          -3.4190161177219487
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000012",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000012_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.34459707218545,
+        0.0,
+        -4.619907187500827e-06,
+        18.54628918008
+      ],
+      "bounds": [
+        -72.34459707218545,
+        18.54155839512,
+        -72.3398662873709,
+        18.54628918008
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000012_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.34459808418546,
+        0.0,
+        -4.619907187499717e-06,
+        18.54628965708
+      ],
+      "bounds": [
+        -72.34459808418546,
+        18.54155887212,
+        -72.33986729937092,
+        18.54628965708
+      ]
+    },
+    "original_pixel_offset": [
+      1024,
+      2048
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 84,
+      "inliers": 67,
+      "coverage": 0.6495772624446432,
+      "median_displacement_pixels": 6.328026294708252,
+      "scale": 0.9998032252409276,
+      "affine_before_to_after": [
+        [
+          0.9998025465180043,
+          -0.001164979946060497,
+          -3.993526001453441
+        ],
+        [
+          0.001164979946060497,
+          0.9998025465180043,
+          -4.864539761450501
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000013",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000013_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33986628737091,
+        0.0,
+        -4.619907187500827e-06,
+        18.54628918008
+      ],
+      "bounds": [
+        -72.33986628737091,
+        18.54155839512,
+        -72.33513550255635,
+        18.54628918008
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000013_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33986729937091,
+        0.0,
+        -4.619907187499717e-06,
+        18.54628965708
+      ],
+      "bounds": [
+        -72.33986729937091,
+        18.54155887212,
+        -72.33513651455637,
+        18.54628965708
+      ]
+    },
+    "original_pixel_offset": [
+      2048,
+      2048
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 106,
+      "inliers": 80,
+      "coverage": 0.7536643277983707,
+      "median_displacement_pixels": 5.463558197021484,
+      "scale": 1.0008799871792853,
+      "affine_before_to_after": [
+        [
+          1.0008788947082599,
+          0.0014788047803125917,
+          -3.9042798602166315
+        ],
+        [
+          -0.0014788047803125917,
+          1.0008788947082599,
+          -4.033439564774891
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000014",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000014_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33513550255635,
+        0.0,
+        -4.619907187500827e-06,
+        18.54628918008
+      ],
+      "bounds": [
+        -72.33513550255635,
+        18.54155839512,
+        -72.3304047177418,
+        18.54628918008
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000014_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33513651455637,
+        0.0,
+        -4.619907187499717e-06,
+        18.54628965708
+      ],
+      "bounds": [
+        -72.33513651455637,
+        18.54155887212,
+        -72.33040572974183,
+        18.54628965708
+      ]
+    },
+    "original_pixel_offset": [
+      3072,
+      2048
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 81,
+      "inliers": 73,
+      "coverage": 0.7503499681614898,
+      "median_displacement_pixels": 6.166060447692871,
+      "scale": 1.0004648995674799,
+      "affine_before_to_after": [
+        [
+          1.0004639883908482,
+          -0.0013502591027993165,
+          -3.8962727223178613
+        ],
+        [
+          0.0013502591027993165,
+          1.0004639883908482,
+          -5.052132391057001
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000015",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000015_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33040471774181,
+        0.0,
+        -4.619907187500827e-06,
+        18.54628918008
+      ],
+      "bounds": [
+        -72.33040471774181,
+        18.54155839512,
+        -72.32567393292726,
+        18.54628918008
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000015_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33040572974183,
+        0.0,
+        -4.619907187499717e-06,
+        18.54628965708
+      ],
+      "bounds": [
+        -72.33040572974183,
+        18.54155887212,
+        -72.32567494492729,
+        18.54628965708
+      ]
+    },
+    "original_pixel_offset": [
+      4096,
+      2048
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 0,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": true,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 74,
+      "inliers": 53,
+      "coverage": 0.19446810497951042,
+      "median_displacement_pixels": 5.471674919128418,
+      "scale": 0.9974986994838555,
+      "affine_before_to_after": [
+        [
+          0.9974888375059136,
+          -0.004435597263529595,
+          -1.7696496621382
+        ],
+        [
+          0.004435597263529595,
+          0.9974888375059136,
+          -3.957179680659456
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000016",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000016_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.349327857,
+        0.0,
+        -4.619907187500827e-06,
+        18.54155839512
+      ],
+      "bounds": [
+        -72.349327857,
+        18.53682761016,
+        -72.34459707218545,
+        18.54155839512
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000016_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.349328869,
+        0.0,
+        -4.619907187499717e-06,
+        18.54155887212
+      ],
+      "bounds": [
+        -72.349328869,
+        18.53682808716,
+        -72.34459808418546,
+        18.54155887212
+      ]
+    },
+    "original_pixel_offset": [
+      0,
+      3072
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 90597,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": false,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 85,
+      "inliers": 71,
+      "coverage": 0.06874191552684791,
+      "median_displacement_pixels": 5.771700382232666,
+      "scale": 0.9953214874230136,
+      "affine_before_to_after": [
+        [
+          0.9953203591974001,
+          0.0014986304142651445,
+          -2.419980402864355
+        ],
+        [
+          -0.0014986304142651445,
+          0.9953203591974001,
+          -3.9244785864895344
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000017",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000017_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.34459707218545,
+        0.0,
+        -4.619907187500827e-06,
+        18.54155839512
+      ],
+      "bounds": [
+        -72.34459707218545,
+        18.53682761016,
+        -72.3398662873709,
+        18.54155839512
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000017_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.34459808418546,
+        0.0,
+        -4.619907187499717e-06,
+        18.54155887212
+      ],
+      "bounds": [
+        -72.34459808418546,
+        18.53682808716,
+        -72.33986729937092,
+        18.54155887212
+      ]
+    },
+    "original_pixel_offset": [
+      1024,
+      3072
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 64462,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": false,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 43,
+      "inliers": 26,
+      "coverage": 0.0642310469559554,
+      "median_displacement_pixels": 5.761239051818848,
+      "scale": 0.9964322650069434,
+      "affine_before_to_after": [
+        [
+          0.9964301459326937,
+          0.0020549996151222726,
+          -2.5297806400058622
+        ],
+        [
+          -0.0020549996151222726,
+          0.9964301459326937,
+          -3.640269080711721
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000018",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000018_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33986628737091,
+        0.0,
+        -4.619907187500827e-06,
+        18.54155839512
+      ],
+      "bounds": [
+        -72.33986628737091,
+        18.53682761016,
+        -72.33513550255635,
+        18.54155839512
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000018_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33986729937091,
+        0.0,
+        -4.619907187499717e-06,
+        18.54155887212
+      ],
+      "bounds": [
+        -72.33986729937091,
+        18.53682808716,
+        -72.33513651455637,
+        18.54155887212
+      ]
+    },
+    "original_pixel_offset": [
+      2048,
+      3072
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 54154,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": false,
+    "grid_offset_pixels": [
+      0.21905202604973387,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 49,
+      "inliers": 28,
+      "coverage": 0.06971847276433515,
+      "median_displacement_pixels": 3.7380475997924805,
+      "scale": 1.0018777302265254,
+      "affine_before_to_after": [
+        [
+          1.0018774892762372,
+          -0.0006948419947422914,
+          -1.9721165901192717
+        ],
+        [
+          0.0006948419947422914,
+          1.0018774892762372,
+          -3.6209947922761376
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000019",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000019_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33513550255635,
+        0.0,
+        -4.619907187500827e-06,
+        18.54155839512
+      ],
+      "bounds": [
+        -72.33513550255635,
+        18.53682761016,
+        -72.3304047177418,
+        18.54155839512
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000019_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33513651455637,
+        0.0,
+        -4.619907187499717e-06,
+        18.54155887212
+      ],
+      "bounds": [
+        -72.33513651455637,
+        18.53682808716,
+        -72.33040572974183,
+        18.54155887212
+      ]
+    },
+    "original_pixel_offset": [
+      3072,
+      3072
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 53836,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": false,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "consistent_same_grid",
+      "matches": 91,
+      "inliers": 80,
+      "coverage": 0.06813602612421689,
+      "median_displacement_pixels": 5.434430122375488,
+      "scale": 1.0000097329898716,
+      "affine_before_to_after": [
+        [
+          1.0000097117166669,
+          -0.00020626881312521311,
+          -3.394028601171393
+        ],
+        [
+          0.00020626881312521311,
+          1.0000097117166669,
+          -4.373503645298899
+        ]
+      ]
+    }
+  },
+  {
+    "pair_id": "haiti-earthquake_000020",
+    "before": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000020_pre_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.619907045457177e-06,
+        0.0,
+        -72.33040471774181,
+        0.0,
+        -4.619907187500827e-06,
+        18.54155839512
+      ],
+      "bounds": [
+        -72.33040471774181,
+        18.53682761016,
+        -72.32567393292726,
+        18.54155839512
+      ]
+    },
+    "after": {
+      "path": "C:\\Users\\acer\\OneDrive\\Belgeler\\ChatGPT\\multidisciplinary project\\technical_checks\\test_dataset_search\\haitibrd\\files\\cropped\\images\\haiti-earthquake_000020_post_disaster.tif",
+      "shape": [
+        1024,
+        1024
+      ],
+      "bands": 4,
+      "color_interpretation": [
+        "red",
+        "green",
+        "blue",
+        "alpha"
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        4.6199070454539475e-06,
+        0.0,
+        -72.33040572974183,
+        0.0,
+        -4.619907187499717e-06,
+        18.54155887212
+      ],
+      "bounds": [
+        -72.33040572974183,
+        18.53682808716,
+        -72.32567494492729,
+        18.54155887212
+      ]
+    },
+    "original_pixel_offset": [
+      4096,
+      3072
+    ],
+    "mask_difference_pixels_against_original": {
+      "severity": 77391,
+      "footprints": 0
+    },
+    "RGB_matches_original": {
+      "after": true,
+      "before": true
+    },
+    "original_crop_consistent": false,
+    "grid_offset_pixels": [
+      0.21905202912573835,
+      0.10324882752578798
+    ],
+    "alignment_at_half_resolution": {
+      "status": "inconclusive",
+      "matches": 18,
+      "inliers": 13,
+      "coverage": 0.019251005571475428,
+      "median_displacement_pixels": 5.584062099456787,
+      "scale": 0.9976707308924304,
+      "affine_before_to_after": [
+        [
+          0.9975313492758503,
+          -0.01667616536670996,
+          -3.0270263973604914
+        ],
+        [
+          0.01667616536670996,
+          0.9975313492758503,
+          -4.622386730537246
+        ]
+      ]
+    }
+  }
+]

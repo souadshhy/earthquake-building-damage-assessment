@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "is_fixture": true,
+  "job_id": "fixture-job",
+  "pair_id": "fixture-pair",
+  "model_version": "synthetic-interface-example-no-model",
+  "status": "completed",
+  "image_ids": {"before": "fixture-before", "after": "fixture-after"},
+  "counts": {"total": 1, "no_apparent_damage": 0, "damaged": 0, "destroyed": 1},
+  "buildings": {
+    "type": "FeatureCollection",
+    "features": [{
+      "type": "Feature",
+      "geometry": {"type": "Polygon", "coordinates": [[[-72.34,18.55],[-72.3399,18.55],[-72.3399,18.5501],[-72.34,18.5501],[-72.34,18.55]]]},
+      "properties": {
+        "building_id": "fixture-region-1",
+        "object_kind": "building_group",
+        "footprint_source": "synthetic_fixture",
+        "pixel_geometry": {"type": "Polygon", "coordinates": [[[10,10],[30,10],[30,30],[10,30],[10,10]]]},
+        "native_probabilities": [0.1,0.1,0.2,0.6],
+        "native_class": "destroyed",
+        "display_probabilities": [0.1,0.3,0.6],
+        "display_category": "destroyed",
+        "suggested_tier": "high"
+      }
+    }]
+  }
+}

@@ -1,0 +1,3092 @@
+[
+  {
+    "name": "HaitiBRD_readme.pdf",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/HaitiBRD_readme.pdf",
+    "type": "file",
+    "length": 147918,
+    "system": "designsafe.storage.published",
+    "legacyPath": "/HaitiBRD_readme.pdf",
+    "lastModified": "2026-06-16T13:14:40Z"
+  },
+  {
+    "name": "Labeled_image_HaitiBRD.png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/Labeled_image_HaitiBRD.png",
+    "type": "file",
+    "length": 831542,
+    "system": "designsafe.storage.published",
+    "legacyPath": "/Labeled_image_HaitiBRD.png",
+    "lastModified": "2026-06-16T13:19:31Z"
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000001_post_disaster.tif",
+    "name": "haiti-earthquake_000001_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000001_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000001_pre_disaster.tif",
+    "name": "haiti-earthquake_000001_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000001_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000002_post_disaster.tif",
+    "name": "haiti-earthquake_000002_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000002_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000002_pre_disaster.tif",
+    "name": "haiti-earthquake_000002_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000002_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000003_post_disaster.tif",
+    "name": "haiti-earthquake_000003_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000003_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000003_pre_disaster.tif",
+    "name": "haiti-earthquake_000003_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000003_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000004_post_disaster.tif",
+    "name": "haiti-earthquake_000004_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000004_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000004_pre_disaster.tif",
+    "name": "haiti-earthquake_000004_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000004_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000005_post_disaster.tif",
+    "name": "haiti-earthquake_000005_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000005_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000005_pre_disaster.tif",
+    "name": "haiti-earthquake_000005_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000005_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000006_post_disaster.tif",
+    "name": "haiti-earthquake_000006_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000006_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000006_pre_disaster.tif",
+    "name": "haiti-earthquake_000006_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000006_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000007_post_disaster.tif",
+    "name": "haiti-earthquake_000007_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000007_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000007_pre_disaster.tif",
+    "name": "haiti-earthquake_000007_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000007_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000008_post_disaster.tif",
+    "name": "haiti-earthquake_000008_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000008_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000008_pre_disaster.tif",
+    "name": "haiti-earthquake_000008_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000008_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000009_post_disaster.tif",
+    "name": "haiti-earthquake_000009_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000009_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000009_pre_disaster.tif",
+    "name": "haiti-earthquake_000009_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000009_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000010_post_disaster.tif",
+    "name": "haiti-earthquake_000010_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000010_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000010_pre_disaster.tif",
+    "name": "haiti-earthquake_000010_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000010_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000011_post_disaster.tif",
+    "name": "haiti-earthquake_000011_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000011_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000011_pre_disaster.tif",
+    "name": "haiti-earthquake_000011_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000011_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000012_post_disaster.tif",
+    "name": "haiti-earthquake_000012_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000012_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000012_pre_disaster.tif",
+    "name": "haiti-earthquake_000012_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000012_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000013_post_disaster.tif",
+    "name": "haiti-earthquake_000013_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000013_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000013_pre_disaster.tif",
+    "name": "haiti-earthquake_000013_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000013_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000014_post_disaster.tif",
+    "name": "haiti-earthquake_000014_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000014_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000014_pre_disaster.tif",
+    "name": "haiti-earthquake_000014_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000014_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000015_post_disaster.tif",
+    "name": "haiti-earthquake_000015_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000015_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000015_pre_disaster.tif",
+    "name": "haiti-earthquake_000015_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000015_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000016_post_disaster.tif",
+    "name": "haiti-earthquake_000016_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000016_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000016_pre_disaster.tif",
+    "name": "haiti-earthquake_000016_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000016_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000017_post_disaster.tif",
+    "name": "haiti-earthquake_000017_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000017_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000017_pre_disaster.tif",
+    "name": "haiti-earthquake_000017_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000017_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000018_post_disaster.tif",
+    "name": "haiti-earthquake_000018_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000018_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000018_pre_disaster.tif",
+    "name": "haiti-earthquake_000018_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000018_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000019_post_disaster.tif",
+    "name": "haiti-earthquake_000019_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000019_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000019_pre_disaster.tif",
+    "name": "haiti-earthquake_000019_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000019_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000020_post_disaster.tif",
+    "name": "haiti-earthquake_000020_post_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:12Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000020_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000020_pre_disaster.tif",
+    "name": "haiti-earthquake_000020_pre_disaster.tif",
+    "length": 4197770,
+    "lastModified": "2026-06-16T22:37:11Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/images/haiti-earthquake_000020_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/images/haiti-earthquake_post_disaster.tif",
+    "name": "haiti-earthquake_post_disaster.tif",
+    "length": 56339594,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/images/haiti-earthquake_post_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/tiff",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/images/haiti-earthquake_pre_disaster.tif",
+    "name": "haiti-earthquake_pre_disaster.tif",
+    "length": 56339594,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/images/haiti-earthquake_pre_disaster.tif"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000001_post_disaster_target.png",
+    "name": "haiti-earthquake_000001_post_disaster_target.png",
+    "length": 36482,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000001_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000001_pre_disaster_target.png",
+    "name": "haiti-earthquake_000001_pre_disaster_target.png",
+    "length": 26859,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000001_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000002_post_disaster_target.png",
+    "name": "haiti-earthquake_000002_post_disaster_target.png",
+    "length": 72855,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000002_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000002_pre_disaster_target.png",
+    "name": "haiti-earthquake_000002_pre_disaster_target.png",
+    "length": 43892,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000002_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000003_post_disaster_target.png",
+    "name": "haiti-earthquake_000003_post_disaster_target.png",
+    "length": 66633,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000003_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000003_pre_disaster_target.png",
+    "name": "haiti-earthquake_000003_pre_disaster_target.png",
+    "length": 37946,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000003_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000004_post_disaster_target.png",
+    "name": "haiti-earthquake_000004_post_disaster_target.png",
+    "length": 71158,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000004_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000004_pre_disaster_target.png",
+    "name": "haiti-earthquake_000004_pre_disaster_target.png",
+    "length": 41431,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000004_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000005_post_disaster_target.png",
+    "name": "haiti-earthquake_000005_post_disaster_target.png",
+    "length": 30789,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000005_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000005_pre_disaster_target.png",
+    "name": "haiti-earthquake_000005_pre_disaster_target.png",
+    "length": 23693,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000005_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000006_post_disaster_target.png",
+    "name": "haiti-earthquake_000006_post_disaster_target.png",
+    "length": 51857,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000006_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000006_pre_disaster_target.png",
+    "name": "haiti-earthquake_000006_pre_disaster_target.png",
+    "length": 37086,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000006_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000007_post_disaster_target.png",
+    "name": "haiti-earthquake_000007_post_disaster_target.png",
+    "length": 77273,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000007_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000007_pre_disaster_target.png",
+    "name": "haiti-earthquake_000007_pre_disaster_target.png",
+    "length": 49172,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000007_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000008_post_disaster_target.png",
+    "name": "haiti-earthquake_000008_post_disaster_target.png",
+    "length": 68993,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000008_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000008_pre_disaster_target.png",
+    "name": "haiti-earthquake_000008_pre_disaster_target.png",
+    "length": 44114,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000008_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000009_post_disaster_target.png",
+    "name": "haiti-earthquake_000009_post_disaster_target.png",
+    "length": 67412,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000009_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000009_pre_disaster_target.png",
+    "name": "haiti-earthquake_000009_pre_disaster_target.png",
+    "length": 36156,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000009_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000010_post_disaster_target.png",
+    "name": "haiti-earthquake_000010_post_disaster_target.png",
+    "length": 31219,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000010_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000010_pre_disaster_target.png",
+    "name": "haiti-earthquake_000010_pre_disaster_target.png",
+    "length": 20246,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000010_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000011_post_disaster_target.png",
+    "name": "haiti-earthquake_000011_post_disaster_target.png",
+    "length": 52311,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000011_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000011_pre_disaster_target.png",
+    "name": "haiti-earthquake_000011_pre_disaster_target.png",
+    "length": 35959,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000011_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000012_post_disaster_target.png",
+    "name": "haiti-earthquake_000012_post_disaster_target.png",
+    "length": 78079,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000012_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000012_pre_disaster_target.png",
+    "name": "haiti-earthquake_000012_pre_disaster_target.png",
+    "length": 51758,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000012_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000013_post_disaster_target.png",
+    "name": "haiti-earthquake_000013_post_disaster_target.png",
+    "length": 42713,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000013_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000013_pre_disaster_target.png",
+    "name": "haiti-earthquake_000013_pre_disaster_target.png",
+    "length": 29894,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000013_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000014_post_disaster_target.png",
+    "name": "haiti-earthquake_000014_post_disaster_target.png",
+    "length": 81681,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000014_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000014_pre_disaster_target.png",
+    "name": "haiti-earthquake_000014_pre_disaster_target.png",
+    "length": 54020,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000014_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000015_post_disaster_target.png",
+    "name": "haiti-earthquake_000015_post_disaster_target.png",
+    "length": 26297,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000015_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000015_pre_disaster_target.png",
+    "name": "haiti-earthquake_000015_pre_disaster_target.png",
+    "length": 19998,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000015_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000016_post_disaster_target.png",
+    "name": "haiti-earthquake_000016_post_disaster_target.png",
+    "length": 15636,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000016_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000016_pre_disaster_target.png",
+    "name": "haiti-earthquake_000016_pre_disaster_target.png",
+    "length": 13189,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000016_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000017_post_disaster_target.png",
+    "name": "haiti-earthquake_000017_post_disaster_target.png",
+    "length": 9722,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000017_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000017_pre_disaster_target.png",
+    "name": "haiti-earthquake_000017_pre_disaster_target.png",
+    "length": 12807,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000017_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000018_post_disaster_target.png",
+    "name": "haiti-earthquake_000018_post_disaster_target.png",
+    "length": 17689,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000018_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000018_pre_disaster_target.png",
+    "name": "haiti-earthquake_000018_pre_disaster_target.png",
+    "length": 8948,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000018_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000019_post_disaster_target.png",
+    "name": "haiti-earthquake_000019_post_disaster_target.png",
+    "length": 12615,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000019_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000019_pre_disaster_target.png",
+    "name": "haiti-earthquake_000019_pre_disaster_target.png",
+    "length": 14767,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000019_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000020_post_disaster_target.png",
+    "name": "haiti-earthquake_000020_post_disaster_target.png",
+    "length": 15759,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000020_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000020_pre_disaster_target.png",
+    "name": "haiti-earthquake_000020_pre_disaster_target.png",
+    "length": 10921,
+    "lastModified": "2026-06-16T22:37:09Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/buildings/haiti-earthquake_000020_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000001_post_disaster_road.dbf",
+    "length": 385,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.prj",
+    "name": "haiti-earthquake_000001_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.shp",
+    "name": "haiti-earthquake_000001_post_disaster_road.shp",
+    "length": 3420,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.shx",
+    "name": "haiti-earthquake_000001_post_disaster_road.shx",
+    "length": 332,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000001_pre_disaster_road.dbf",
+    "length": 385,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000001_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000001_pre_disaster_road.shp",
+    "length": 3420,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000001_pre_disaster_road.shx",
+    "length": 332,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000001_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000002_post_disaster_road.dbf",
+    "length": 528,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.prj",
+    "name": "haiti-earthquake_000002_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.shp",
+    "name": "haiti-earthquake_000002_post_disaster_road.shp",
+    "length": 4228,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.shx",
+    "name": "haiti-earthquake_000002_post_disaster_road.shx",
+    "length": 436,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000002_pre_disaster_road.dbf",
+    "length": 385,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000002_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000002_pre_disaster_road.shp",
+    "length": 3532,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000002_pre_disaster_road.shx",
+    "length": 332,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000002_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000003_post_disaster_road.dbf",
+    "length": 451,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.prj",
+    "name": "haiti-earthquake_000003_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.shp",
+    "name": "haiti-earthquake_000003_post_disaster_road.shp",
+    "length": 3820,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.shx",
+    "name": "haiti-earthquake_000003_post_disaster_road.shx",
+    "length": 380,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000003_pre_disaster_road.dbf",
+    "length": 297,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000003_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000003_pre_disaster_road.shp",
+    "length": 2844,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000003_pre_disaster_road.shx",
+    "length": 268,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000003_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000004_post_disaster_road.dbf",
+    "length": 583,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.prj",
+    "name": "haiti-earthquake_000004_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.shp",
+    "name": "haiti-earthquake_000004_post_disaster_road.shp",
+    "length": 6448,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.shx",
+    "name": "haiti-earthquake_000004_post_disaster_road.shx",
+    "length": 476,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000004_pre_disaster_road.dbf",
+    "length": 539,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000004_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000004_pre_disaster_road.shp",
+    "length": 6224,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000004_pre_disaster_road.shx",
+    "length": 444,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000004_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000005_post_disaster_road.dbf",
+    "length": 352,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.prj",
+    "name": "haiti-earthquake_000005_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.shp",
+    "name": "haiti-earthquake_000005_post_disaster_road.shp",
+    "length": 3524,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.shx",
+    "name": "haiti-earthquake_000005_post_disaster_road.shx",
+    "length": 308,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000005_pre_disaster_road.dbf",
+    "length": 352,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000005_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000005_pre_disaster_road.shp",
+    "length": 3524,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000005_pre_disaster_road.shx",
+    "length": 308,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000005_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000006_post_disaster_road.dbf",
+    "length": 748,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.prj",
+    "name": "haiti-earthquake_000006_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.shp",
+    "name": "haiti-earthquake_000006_post_disaster_road.shp",
+    "length": 8120,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.shx",
+    "name": "haiti-earthquake_000006_post_disaster_road.shx",
+    "length": 596,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000006_pre_disaster_road.dbf",
+    "length": 682,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000006_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000006_pre_disaster_road.shp",
+    "length": 7672,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000006_pre_disaster_road.shx",
+    "length": 548,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000006_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000007_post_disaster_road.dbf",
+    "length": 462,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.prj",
+    "name": "haiti-earthquake_000007_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.shp",
+    "name": "haiti-earthquake_000007_post_disaster_road.shp",
+    "length": 3412,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.shx",
+    "name": "haiti-earthquake_000007_post_disaster_road.shx",
+    "length": 388,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000007_pre_disaster_road.dbf",
+    "length": 242,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000007_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000007_pre_disaster_road.shp",
+    "length": 2004,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000007_pre_disaster_road.shx",
+    "length": 228,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000007_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000008_post_disaster_road.dbf",
+    "length": 550,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.prj",
+    "name": "haiti-earthquake_000008_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.shp",
+    "name": "haiti-earthquake_000008_post_disaster_road.shp",
+    "length": 4916,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.shx",
+    "name": "haiti-earthquake_000008_post_disaster_road.shx",
+    "length": 452,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000008_pre_disaster_road.dbf",
+    "length": 385,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000008_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000008_pre_disaster_road.shx",
+    "length": 332,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000008_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000009_post_disaster_road.dbf",
+    "length": 462,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.prj",
+    "name": "haiti-earthquake_000009_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.shp",
+    "name": "haiti-earthquake_000009_post_disaster_road.shp",
+    "length": 5508,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.shx",
+    "name": "haiti-earthquake_000009_post_disaster_road.shx",
+    "length": 388,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000009_pre_disaster_road.dbf",
+    "length": 429,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000009_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000009_pre_disaster_road.shp",
+    "length": 5292,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000009_pre_disaster_road.shx",
+    "length": 364,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000009_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000010_post_disaster_road.dbf",
+    "length": 198,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.prj",
+    "name": "haiti-earthquake_000010_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.shp",
+    "name": "haiti-earthquake_000010_post_disaster_road.shp",
+    "length": 1812,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.shx",
+    "name": "haiti-earthquake_000010_post_disaster_road.shx",
+    "length": 196,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000010_pre_disaster_road.dbf",
+    "length": 198,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000010_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000010_pre_disaster_road.shp",
+    "length": 1812,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000010_pre_disaster_road.shx",
+    "length": 196,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000010_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000011_post_disaster_road.dbf",
+    "length": 319,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.prj",
+    "name": "haiti-earthquake_000011_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.shp",
+    "name": "haiti-earthquake_000011_post_disaster_road.shp",
+    "length": 2796,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.shx",
+    "name": "haiti-earthquake_000011_post_disaster_road.shx",
+    "length": 284,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000011_pre_disaster_road.dbf",
+    "length": 209,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000011_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000011_pre_disaster_road.shp",
+    "length": 1996,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000011_pre_disaster_road.shx",
+    "length": 204,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000011_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000012_post_disaster_road.dbf",
+    "length": 572,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.prj",
+    "name": "haiti-earthquake_000012_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.shp",
+    "name": "haiti-earthquake_000012_post_disaster_road.shp",
+    "length": 4772,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.shx",
+    "name": "haiti-earthquake_000012_post_disaster_road.shx",
+    "length": 468,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000012_pre_disaster_road.dbf",
+    "length": 407,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.prj",
+    "name": "haiti-earthquake_000012_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.shp",
+    "name": "haiti-earthquake_000012_pre_disaster_road.shp",
+    "length": 3516,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.shx",
+    "name": "haiti-earthquake_000012_pre_disaster_road.shx",
+    "length": 348,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000012_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.dbf",
+    "name": "haiti-earthquake_000013_post_disaster_road.dbf",
+    "length": 737,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.prj",
+    "name": "haiti-earthquake_000013_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.shp",
+    "name": "haiti-earthquake_000013_post_disaster_road.shp",
+    "length": 7452,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.shx",
+    "name": "haiti-earthquake_000013_post_disaster_road.shx",
+    "length": 588,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_000013_pre_disaster_road.dbf",
+    "length": 726,
+    "lastModified": "2026-06-16T22:37:10Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/cropped/labels/roads/haiti-earthquake_000013_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/buildings/haiti-earthquake_post_disaster_target.png",
+    "name": "haiti-earthquake_post_disaster_target.png",
+    "length": 397844,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/buildings/haiti-earthquake_post_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": "image/png",
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/buildings/haiti-earthquake_pre_disaster_target.png",
+    "name": "haiti-earthquake_pre_disaster_target.png",
+    "length": 219925,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/buildings/haiti-earthquake_pre_disaster_target.png"
+      }
+    },
+    "isPreviewable": true
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.dbf",
+    "name": "haiti-earthquake_post_disaster_road.dbf",
+    "length": 5291,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.prj",
+    "name": "haiti-earthquake_post_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.shp",
+    "name": "haiti-earthquake_post_disaster_road.shp",
+    "length": 59516,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.shx",
+    "name": "haiti-earthquake_post_disaster_road.shx",
+    "length": 3900,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_post_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.dbf",
+    "name": "haiti-earthquake_pre_disaster_road.dbf",
+    "length": 3938,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.dbf"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.prj",
+    "name": "haiti-earthquake_pre_disaster_road.prj",
+    "length": 145,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.prj"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.shp",
+    "name": "haiti-earthquake_pre_disaster_road.shp",
+    "length": 51368,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.shp"
+      }
+    },
+    "isPreviewable": false
+  },
+  {
+    "system": "designsafe.storage.published",
+    "type": "file",
+    "format": "raw",
+    "mimeType": null,
+    "path": "/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.shx",
+    "name": "haiti-earthquake_pre_disaster_road.shx",
+    "length": 2916,
+    "lastModified": "2026-06-16T22:37:13Z",
+    "_links": {
+      "self": {
+        "href": "tapis://designsafe.storage.published/published-data/PRJ-4169/Project--haitibrd-a-labeled-satellite-imagery-dataset-for-building-and-road-damage-assessment-of-the-2010-haiti-earthquake--V2/data/original/labels/roads/haiti-earthquake_pre_disaster_road.shx"
+      }
+    },
+    "isPreviewable": false
+  }
+]
