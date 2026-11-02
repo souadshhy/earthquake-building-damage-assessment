@@ -78,17 +78,13 @@ Read [EXTERNAL_TESTS.md](docs/EXTERNAL_TESTS.md), [LABEL_CONTRACT.md](docs/LABEL
 
 Each student uses a branch and opens a pull request; changes are reviewed before merging to `main`. See [CONTRIBUTING.md](CONTRIBUTING.md). Pull merged changes frequently and integrate at least twice weekly.
 
-Before the first push:
+The private repository is published. The coordinator adds the other students in GitHub Settings → Collaborators. Each student accepts the invitation, then clones it:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts/check_repository.py
-git add .
-git diff --cached --stat
-git commit -m "Set up shared earthquake inspection project"
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
+git clone https://github.com/souadshhy/earthquake-building-damage-assessment.git
+cd earthquake-building-damage-assessment
 ```
 
-This folder already has an initialized Git repository on `main`; the initial publication is managed by the project coordinator. Create an empty GitHub repository and replace the URL placeholder. Add collaborators and configure branch protection as described in CONTRIBUTING.md.
+Follow docs/SETUP.md, create your own branch, and use pull requests. Large datasets and weights transfer separately. Branch protection and actual student handles still need configuration by the coordinator.
 
 The repository is now the working source of truth. Previous handoff ZIPs are dated snapshots, not separate working projects. Third-party Microsoft source retains its license in `quake/vendor/MICROSOFT_LICENSE`; dataset and imagery terms remain separate. No license for original student code is assumed here.
