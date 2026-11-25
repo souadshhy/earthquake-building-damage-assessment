@@ -1,7 +1,8 @@
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import rawFixture from "./data/result.fixture.json";
 import InspectionMap from "./components/InspectionMap";
 import FeatureDetailPanel from "./components/FeatureDetailPanel";
+import BackendJobPanel, { DataSourceMode } from "./components/BackendJobPanel";
 import {
   AssessmentResult,
   DISPLAY_CATEGORY_META,
@@ -14,7 +15,10 @@ import {
 const fixtureAssessment = rawFixture as unknown as AssessmentResult;
 
 export default function App() {
-  const [assessment] = useState<AssessmentResult>(fixtureAssessment);
+  const [mode, setMode] = useState<DataSourceMode>("fixture");
+  const [liveAssessment, setLiveAssessment] = useState<AssessmentResult | null>(
+    null
+  );
   const [categoryFilter, setCategoryFilter] = useState<DisplayCategory | "all">(
     "all"
   );
@@ -22,6 +26,30 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(
     fixtureAssessment.buildings.features[0]?.properties.building_id ?? null
   );
+
+  const assessment =
+    mode === "live" && liveAssessment ? liveAssessment : fixtureAssessment;
+
+  const handleModeChange = useCallback(
+    (nextMode: DataSourceMode) => {
+      setMode(nextMode);
+      const target =
+        nextMode === "live" && liveAssessment
+          ? liveAssessment
+          : fixtureAssessment;
+      setSelectedId(
+        target.buildings.features[0]?.properties.building_id ?? null
+      );
+    },
+    [liveAssessment]
+  );
+
+  const handleLiveResultLoaded = useCallback((result: AssessmentResult) => {
+    setLiveAssessment(result);
+    setSelectedId(
+      result.buildings.features[0]?.properties.building_id ?? null
+    );
+  }, []);
 
   const visibleFeatures = useMemo(() => {
     const filtered = assessment.buildings.features.filter((feature) => {
@@ -58,11 +86,16 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      {assessment.is_fixture && (
+      {assessment.is_fixture ? (
         <div className="fixture-banner" role="status">
           <strong>SYNTHETIC DEVELOPER FIXTURE MODE:</strong> Displaying{" "}
           <code>{assessment.job_id}</code> ({assessment.model_version}). Not
           genuine model predictions.
+        </div>
+      ) : (
+        <div className="live-banner" role="status">
+          <strong>LIVE BACKEND RESULT:</strong> Displaying job{" "}
+          <code>{assessment.job_id}</code> ({assessment.model_version}).
         </div>
       )}
 
@@ -94,6 +127,13 @@ export default function App() {
           </div>
         </div>
       </header>
+
+      <BackendJobPanel
+        mode={mode}
+        onModeChange={handleModeChange}
+        activeAssessment={assessment}
+        onLiveResultLoaded={handleLiveResultLoaded}
+      />
 
       <section className="filter-bar" aria-label="Map and list filters">
         <label>
