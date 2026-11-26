@@ -4,7 +4,8 @@ import subprocess
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
-BLOCKED={"data","weights","runs","runtime","node_modules",".venv"}
+BLOCKED={"data","weights","runs","runtime","node_modules",".venv","private","reports"}
+PRIVATE_DOCS={"contracts/API.md","docs/TEAM_PLAN.md","docs/OWNERSHIP.md"}
 
 
 def main():
@@ -20,7 +21,10 @@ def main():
         relative=Path(name)
         size=path.stat().st_size
         total+=size
-        if relative.parts[0] in BLOCKED or "node_modules" in relative.parts or relative.name==".env":
+        if (relative.parts[0] in BLOCKED or "node_modules" in relative.parts
+                or name in PRIVATE_DOCS or name.startswith("docs/handbook/")
+                or (relative.name.startswith(".env") and relative.name != ".env.example")
+                or relative.suffix.lower() in {".pem", ".key", ".p12", ".pfx"}):
             failures.append(f"Local-only file is Git-visible: {name}")
         if size>10*1024*1024:
             failures.append(f"File exceeds 10 MiB source-repository limit: {name}")

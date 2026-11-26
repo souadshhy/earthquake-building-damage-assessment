@@ -13,15 +13,15 @@ py -3.12 -m venv .venv
 
 Use explicit `.venv` paths if PowerShell activation is restricted. PyTorch hardware-specific installation and batch size belong to Student 2 after the training laptop is identified; no GPU fit is assumed. Source tests run on CPU and do not train.
 
-## Backend — Student 3
+## Backend â€” Student 3
 
 ```powershell
 .\.venv\Scripts\python.exe -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-Visit `http://127.0.0.1:8000/health` or `/docs`. The starter provides health only, not inference jobs. Implement real jobs and exports against `contracts/API.md`; do not present the development fixture as genuine inference.
+Visit `http://127.0.0.1:8000/health` or `/docs`. The backend implements jobs, results, previews and exports. `/health` reports inference readiness; submissions return 503 until a trained provider is configured. `/docs` describes implemented HTTP requests. The current frontend client still needs alignment. Synthetic fixtures are not genuine inference. See `backend/README.md`.
 
-## Frontend — Student 4
+## Frontend â€” Student 4
 
 ```powershell
 cd frontend
@@ -31,9 +31,9 @@ npm run dev
 
 Vite prints the local address. `npm run build` checks TypeScript and builds the frontend. The Vite `/api` proxy targets the local backend at port 8000. Production deployment is outside this version's scope.
 
-## Data and weights — Students 1 and 2
+## Data and weights â€” Students 1 and 2
 
-Source code/tests and the starter application need no dataset downloads. For actual preparation, training and evaluation, follow `datasets/README.md` and `docs/EXTERNAL_TESTS.md`. Transfer source imagery/archives under their terms. A fresh clone has no `data/` or `weights/`. Dataset summaries are in the generated data manifests.
+Source code/tests and fixture-mode frontend need no dataset downloads. For actual preparation, training and evaluation, follow `datasets/README.md` and `docs/EXTERNAL_TESTS.md`. Transfer source imagery/archives under their terms. A fresh clone has no `data/` or `weights/`. Dataset summaries are in the generated data manifests.
 
 1. Obtain the xBD archive and EBD release/provenance, and transfer/download HaitiBRD source files as documented.
 2. Run `python scripts/prepare_team_datasets.py --external suite --archive 'D:\\datasets\\train_images_labels_targets.tar'` from the repository root.
@@ -43,3 +43,5 @@ Source code/tests and the starter application need no dataset downloads. For act
 Do not copy another student's generated manifest paths and expect them to work. Generated data and path indexes stay local. Run preparation commands from the repository root; they resolve project files relative to their scripts.
 
 Large transfer files and checkpoints are shared outside Git. Record provenance/checksums and experiment settings in the report. Do not upload restricted imagery to GitHub as a workaround.
+
+The committed frontend currently adds `concurrently` without matching lockfile entries; a clean `npm ci` fails until the frontend owner fixes that mismatch. Existing local dependencies may still build.

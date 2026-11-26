@@ -41,3 +41,15 @@ Thumbs.db
 *.pt
 *.pth
 *.onnx
+
+# Private coordination and report drafts stay local.
+/docs/handbook/
+/docs/TEAM_PLAN.md
+/docs/OWNERSHIP.md
+/reports/
+/contracts/API.md
+/private/
+*.pem
+*.key
+*.p12
+*.pfx
