@@ -30,7 +30,7 @@ Data indexes: data/xbd_team_v1 and data/team_external_tests_v1. Data/weights/run
 
 ## Current implementation state
 
-Data/source audits, split/config decisions, preparation scripts, classifier/evaluator code and detector sanity checking exist. The damage classifier has not been trained in this handoff and no damage accuracy has been measured. backend/app.py has health only; frontend/ is a buildable starter, not the interactive map. contracts/examples/result.fixture.json is explicitly synthetic developer data, not real predictions. Local source checks previously passed; inspect and rerun relevant checks after your changes instead of claiming old results verify new code.
+Data/source audits, split/config decisions, preparation scripts, classifier/evaluator code and detector sanity checking exist. The damage classifier has not been trained in this handoff and no damage accuracy has been measured. Student 3's backend now implements validated pairs/uploads, serial jobs, geographic results, crop previews and exports. Genuine inference awaits Student 2's trained provider; Student 4's fixture map and live-job controls exist, with API alignment still pending (see docs/INTEGRATION_HANDOFF.md). See contracts/API.md and reports/backend/HANDOFFS.md for integration details. The existing result fixture remains synthetic developer data.
 
 The team goal is one real image pair → detected regions → genuine trained damage predictions → suggested tiers → interactive map → downloadable report. Classifier evaluation on reference crops is separate from complete detector/pipeline evaluation. Disclose possible detector pretraining overlap with xBD events.
 

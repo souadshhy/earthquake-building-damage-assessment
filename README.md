@@ -4,7 +4,7 @@ GitHub repository: [souadshhy/earthquake-building-damage-assessment](https://git
 
 Shared repository for the four-student project. Build a local interactive map of buildings/building groups, predicted damage, suggested inspection tiers and downloadable CSV/GeoJSON reports.
 
-**Current state:** datasets/splits and model choices are prepared. Detector-only inference was checked. The damage classifier is untrained. The backend and frontend contain starter code; the prediction pipeline and interactive map still need implementation. No accuracy result is claimed.
+**Current state:** datasets/splits and model choices are prepared. Detector-only inference was checked. The damage classifier is untrained. The backend implements validation, serial jobs, geographic results, crop previews and exports, with a documented inference-provider interface. Student 4's fixture map and live-job controls exist; API alignment and Student 2's trained provider remain pending. See [integration handoff](docs/INTEGRATION_HANDOFF.md). No accuracy result is claimed.
 
 ## Student and AI guides
 
@@ -63,7 +63,7 @@ npm ci
 npm run dev
 ```
 
-The starter page shows that no assessment is loaded. `/health` confirms the backend is running. Neither generates predictions. Development servers bind to this laptop only by default.
+The frontend starts in visibly marked synthetic fixture mode; its live client still requires the alignment documented in docs/INTEGRATION_HANDOFF.md. `/health` reports backend/model readiness. The API accepts inference jobs after Student 2's genuine provider is configured. See `backend/README.md` and `contracts/API.md`. Development servers bind to this laptop only by default.
 
 ## Data and models
 

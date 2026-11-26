@@ -1,0 +1,9 @@
+POST /jobs
+Content-Type: multipart/form-data; boundary=<generated-by-client>
+
+input_type = upload
+before = <before.tif file>
+after = <after.tif file>
+
+PowerShell example (requires a configured genuine inference provider)
+curl.exe -X POST http://127.0.0.1:8000/jobs -F input_type=upload -F before=@before.tif -F after=@after.tif

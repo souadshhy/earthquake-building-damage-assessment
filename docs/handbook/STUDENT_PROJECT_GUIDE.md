@@ -182,9 +182,9 @@ Compare with a training-majority baseline and an after-only ResNet-18 trained on
 
 ## 8. What is already done, and what remains?
 
-Prepared: dataset decisions and indexes; source audits; model code and detector sanity check; source tests; repository organization; team instructions; synthetic interface example; backend health endpoint; buildable frontend starter; GitHub check configuration.
+Prepared: dataset decisions and indexes; source audits; model code and detector sanity check; source tests; repository organization; team instructions; synthetic interface example; backend input validation, serial jobs, geography, crop previews and matching exports; fixture map and live-job controls awaiting API alignment; GitHub check configuration.
 
-Not done: damage training, final model results, real inference jobs, the interactive map, matching report downloads and the final report. The fixture in contracts/examples/ is invented developer data, not a model prediction. GitHub checks execute after pushing; adding their configuration is not evidence of a completed remote CI run.
+Pending: damage training, final model results, Student 2's genuine inference provider, integration of real jobs with the interactive map, second-laptop reproduction and the final combined report. Student 3's report draft and handoffs are in reports/backend/. The fixture in contracts/examples/ is invented developer data, not a model prediction. GitHub checks execute after pushing; adding their configuration is not evidence of a completed remote CI run.
 
 ## 9. Four students, one connected project
 

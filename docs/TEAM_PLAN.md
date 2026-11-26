@@ -3,7 +3,7 @@
 
 ## Current implementation
 
-Dataset preparation and model selection are complete. The detector passed a one-image inference check without weight updates. The damage classifier is written but untrained. The backend has a health endpoint and the frontend has starter code; real inference jobs and the interactive map remain to be built. Confirm training-laptop GPU/VRAM/RAM/OS before training.
+Dataset preparation and model selection are complete. The detector passed a one-image inference check without weight updates. The damage classifier is written but untrained. Student 3's backend now implements validated inputs, persistent serial jobs, geography, crop previews and exports. Genuine pair inference awaits Student 2's trained provider; Student 4's fixture map and live-job controls exist, with API alignment still pending (see docs/INTEGRATION_HANDOFF.md). Confirm training-laptop GPU/VRAM/RAM/OS before training. Backend evidence and pending handoffs are in `reports/backend/`.
 
 ## Product
 

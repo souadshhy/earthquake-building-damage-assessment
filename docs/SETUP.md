@@ -19,7 +19,7 @@ Use explicit `.venv` paths if PowerShell activation is restricted. PyTorch hardw
 .\.venv\Scripts\python.exe -m uvicorn backend.app:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-Visit `http://127.0.0.1:8000/health` or `/docs`. The starter provides health only, not inference jobs. Implement real jobs and exports against `contracts/API.md`; do not present the development fixture as genuine inference.
+Visit `http://127.0.0.1:8000/health` or `/docs`. The backend implements jobs/results/exports against `contracts/API.md`. Submissions return 503 until Student 2's genuine inference provider is configured. See `backend/README.md` for provider setup, geographic validation and backend tests. `/pairs` lists locally supported examples. Backend startup scans local imagery headers; a fresh clone also works with an empty registry.
 
 ## Frontend — Student 4
 

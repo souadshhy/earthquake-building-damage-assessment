@@ -30,7 +30,7 @@ Data indexes: data/xbd_team_v1 and data/team_external_tests_v1. Data/weights/run
 
 ## Current implementation state
 
-Data/source audits, split/config decisions, preparation scripts, classifier/evaluator code and detector sanity checking exist. The damage classifier has not been trained in this handoff and no damage accuracy has been measured. backend/app.py has health only; frontend/ is a buildable starter, not the interactive map. contracts/examples/result.fixture.json is explicitly synthetic developer data, not real predictions. Local source checks previously passed; inspect and rerun relevant checks after your changes instead of claiming old results verify new code.
+Data/source audits, split/config decisions, preparation scripts, classifier/evaluator code and detector sanity checking exist. The damage classifier has not been trained in this handoff and no damage accuracy has been measured. Student 3's backend now implements validated pairs/uploads, serial jobs, geographic results, crop previews and exports. Genuine inference awaits Student 2's trained provider; Student 4's fixture map and live-job controls exist, with API alignment still pending (see docs/INTEGRATION_HANDOFF.md). See contracts/API.md and reports/backend/HANDOFFS.md for integration details. The existing result fixture remains synthetic developer data.
 
 The team goal is one real image pair → detected regions → genuine trained damage predictions → suggested tiers → interactive map → downloadable report. Classifier evaluation on reference crops is separate from complete detector/pipeline evaluation. Disclose possible detector pretraining overlap with xBD events.
 
@@ -57,7 +57,7 @@ Coordinate contracts/ with Student 3 and model-facing probability semantics with
 
 ## Work in this order
 
-1. Read the actual frontend starter and contracts/API.md. The current page shows no assessment loaded; it is not a map implementation.
+1. Read the existing map/client, contracts/API.md and docs/INTEGRATION_HANDOFF.md. Preserve the fixture map and align the client with the reviewed backend contract.
 2. Agree API response/request shapes with Student 3, including job status, crop URLs, result geometry and export scope.
 3. Build the interactive map and linked building/group list using contracts/examples/result.fixture.json. Mark fixture/development mode visibly and never call it a real model output.
 4. Add category and tier filters, summary counts, click details and before/after crop display when URLs/images are available.
@@ -76,7 +76,7 @@ From frontend/:
     npm run dev
     npm run build
 
-The Vite /api proxy targets http://127.0.0.1:8000 and strips the /api prefix. Student 3 starts the backend separately. Only /health currently exists; planned job/export routes are not implemented simply because they appear in the contract.
+The Vite /api proxy targets http://127.0.0.1:8000 and strips the /api prefix. Student 3 starts the backend separately. Job/export routes are now implemented, with contracts/API.md defining submissions, status, results and crop URLs. Health stays inference_ready=false until Student 2's provider is configured. Prefix root-relative crop URLs with /api when using the Vite proxy. Downloads cover the whole job; label them accordingly.
 
 ## What the interface must do
 

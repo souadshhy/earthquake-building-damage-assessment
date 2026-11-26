@@ -30,7 +30,7 @@ Data indexes: data/xbd_team_v1 and data/team_external_tests_v1. Data/weights/run
 
 ## Current implementation state
 
-Data/source audits, split/config decisions, preparation scripts, classifier/evaluator code and detector sanity checking exist. The damage classifier has not been trained in this handoff and no damage accuracy has been measured. backend/app.py has health only; frontend/ is a buildable starter, not the interactive map. contracts/examples/result.fixture.json is explicitly synthetic developer data, not real predictions. Local source checks previously passed; inspect and rerun relevant checks after your changes instead of claiming old results verify new code.
+Data/source audits, split/config decisions, preparation scripts, classifier/evaluator code and detector sanity checking exist. The damage classifier has not been trained in this handoff and no damage accuracy has been measured. The backend implements validated pairs/uploads, serial jobs, geographic results, crop previews and exports. Genuine inference awaits Student 2's trained provider. Student 4's fixture map and live-job controls exist; API alignment remains pending (see docs/INTEGRATION_HANDOFF.md). See backend/README.md, contracts/API.md and reports/backend/ for current behavior and handoffs. The existing fixture remains synthetic developer data.
 
 The team goal is one real image pair → detected regions → genuine trained damage predictions → suggested tiers → interactive map → downloadable report. Classifier evaluation on reference crops is separate from complete detector/pipeline evaluation. Disclose possible detector pretraining overlap with xBD events.
 
@@ -50,7 +50,7 @@ Act as the technical assistant for Student 3. You own the local service that joi
 
 ### Owned files
 
-- backend/, especially backend/app.py, which currently has /health only.
+- backend/, including input validation, jobs, results and the FastAPI entry point.
 - quake/geo.py and quake/io.py.
 - Backend/geography/export tests under tests/.
 - reports/backend/.
@@ -59,7 +59,7 @@ contracts/ is jointly owned with Students 2/4. Preserve Student 1's split/label 
 
 ## Work in this order
 
-1. Read contracts/API.md and its fixture. Inspect actual backend routes; do not claim planned job/export routes already exist.
+1. Read contracts/API.md and its examples. Job/export routes are implemented; verify actual behavior and pending model integration.
 2. Agree input/result field names with Students 2/4. Publish matching request/response examples whenever the interface changes. Treat the existing example as synthetic; never serve it as real inference.
 3. Implement input validation and a prepared-example path first. Accept aligned same-grid RGB GeoTIFF pairs up to 4096×4096, or validated prepared PNG examples with a geographic sidecar. Reject unsupported/missing geography and incompatible grids with clear messages.
 4. Implement job creation, status and serial execution using SQLite metadata plus disk artifacts. Run one inference job at a time. Add readable failure states and empty-result handling.
@@ -70,13 +70,13 @@ contracts/ is jointly owned with Students 2/4. Preserve Student 1's split/label 
 
 ## Required API direction
 
-Planned routes in contracts/API.md:
+Implemented routes in contracts/API.md:
 - POST /jobs: validate inputs and create a job.
 - GET /jobs/{job_id}: queued/running/completed/failed status.
 - GET /jobs/{job_id}/buildings: result GeoJSON.
 - GET /jobs/{job_id}/exports/csv and /exports/geojson: matching exports.
 
-Define multipart field names/prepared-example request format explicitly before the upload UI is implemented. Routes above are requirements, not claims of existing implementation.
+Prepared JSON and multipart field names are now specified in contracts/API.md. Review them with Students 2/4 before frontend/model integration.
 
 Pair inputs include image/pair IDs, dimensions, CRS, transform and provenance. Results include job/pair IDs, pixel/geographic geometry, four native probabilities/class, grouped display category/tier, model version and image IDs. Reference/predicted footprints and synthetic fixtures must remain distinguishable. Add crop URLs when the service actually serves them.
 
