@@ -23,6 +23,11 @@ export interface PolygonGeometry {
   coordinates: number[][][];
 }
 
+export interface CropUrls {
+  before: string;
+  after: string;
+}
+
 export interface BuildingProperties {
   building_id: string;
   object_kind: "building" | "building_group" | string;
@@ -33,8 +38,8 @@ export interface BuildingProperties {
   display_probabilities: [number, number, number];
   display_category: DisplayCategory;
   suggested_tier: SuggestedTier;
-  before_crop_url?: string | null;
-  after_crop_url?: string | null;
+  crop_box?: [number, number, number, number];
+  crop_urls?: CropUrls | null;
 }
 
 export interface BuildingFeature {
@@ -61,7 +66,7 @@ export interface AssessmentResult {
   job_id: string;
   pair_id: string;
   model_version: string;
-  status: JobStatus;
+  status?: JobStatus;
   error?: string | null;
   image_ids: {
     before: string;
