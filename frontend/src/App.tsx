@@ -27,18 +27,18 @@ export default function App() {
     fixtureAssessment.buildings.features[0]?.properties.building_id ?? null
   );
 
-  const assessment =
-    mode === "live" && liveAssessment ? liveAssessment : fixtureAssessment;
+  const assessment: AssessmentResult | null =
+    mode === "fixture" ? fixtureAssessment : liveAssessment;
 
   const handleModeChange = useCallback(
     (nextMode: DataSourceMode) => {
       setMode(nextMode);
+      setCategoryFilter("all");
+      setTierFilter("all");
       const target =
-        nextMode === "live" && liveAssessment
-          ? liveAssessment
-          : fixtureAssessment;
+        nextMode === "fixture" ? fixtureAssessment : liveAssessment;
       setSelectedId(
-        target.buildings.features[0]?.properties.building_id ?? null
+        target?.buildings.features[0]?.properties.building_id ?? null
       );
     },
     [liveAssessment]
@@ -46,12 +46,15 @@ export default function App() {
 
   const handleLiveResultLoaded = useCallback((result: AssessmentResult) => {
     setLiveAssessment(result);
+    setCategoryFilter("all");
+    setTierFilter("all");
     setSelectedId(
       result.buildings.features[0]?.properties.building_id ?? null
     );
   }, []);
 
   const visibleFeatures = useMemo(() => {
+    if (!assessment) return [];
     const filtered = assessment.buildings.features.filter((feature) => {
       const matchesCategory =
         categoryFilter === "all" ||
@@ -86,16 +89,20 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      {assessment.is_fixture ? (
+      {mode === "fixture" ? (
         <div className="fixture-banner" role="status">
           <strong>SYNTHETIC DEVELOPER FIXTURE MODE:</strong> Displaying{" "}
-          <code>{assessment.job_id}</code> ({assessment.model_version}). Not
-          genuine model predictions.
+          <code>{fixtureAssessment.job_id}</code> (
+          {fixtureAssessment.model_version}). Not genuine model predictions.
         </div>
-      ) : (
+      ) : assessment ? (
         <div className="live-banner" role="status">
           <strong>LIVE BACKEND RESULT:</strong> Displaying job{" "}
           <code>{assessment.job_id}</code> ({assessment.model_version}).
+        </div>
+      ) : (
+        <div className="live-banner" role="status">
+          <strong>LIVE BACKEND MODE:</strong> No live assessment loaded yet.
         </div>
       )}
 
@@ -103,8 +110,15 @@ export default function App() {
         <div>
           <h1>Building Damage &amp; Inspection Map</h1>
           <p className="subtitle">
-            Pair: <strong>{assessment.pair_id}</strong> &middot; Model:{" "}
-            <code>{assessment.model_version}</code>
+            {assessment ? (
+              <>
+                Pair: <strong>{assessment.pair_id}</strong> &middot; Model:{" "}
+                <code>{assessment.model_version}</code> &middot; Job Total:{" "}
+                <strong>{assessment.counts.total}</strong>
+              </>
+            ) : (
+              <>No live assessment loaded — submit a prepared pair or upload</>
+            )}
           </p>
         </div>
 
@@ -132,119 +146,141 @@ export default function App() {
         mode={mode}
         onModeChange={handleModeChange}
         activeAssessment={assessment}
+        visibleCount={visibleCounts.total}
         onLiveResultLoaded={handleLiveResultLoaded}
       />
 
-      <section className="filter-bar" aria-label="Map and list filters">
-        <label>
-          <span>Display Category:</span>
-          <select
-            value={categoryFilter}
-            onChange={(e) =>
-              setCategoryFilter(e.target.value as DisplayCategory | "all")
-            }
-          >
-            <option value="all">All categories</option>
-            <option value="destroyed">Destroyed</option>
-            <option value="damaged">Damaged (Minor + Major)</option>
-            <option value="no_apparent_damage">No Apparent Damage</option>
-          </select>
-        </label>
+      {!assessment ? (
+        <section className="detail-card" role="status">
+          <h3>No Live Assessment Loaded</h3>
+          <p className="muted">
+            Select a registered prepared pair or upload a matching before/after
+            GeoTIFF pair above to run live inference, or switch back to{" "}
+            <strong>Fixture Mode (Demo)</strong> to explore the synthetic
+            sample dataset.
+          </p>
+        </section>
+      ) : (
+        <>
+          <section className="filter-bar" aria-label="Map and list filters">
+            <label>
+              <span>Display Category:</span>
+              <select
+                value={categoryFilter}
+                onChange={(e) =>
+                  setCategoryFilter(e.target.value as DisplayCategory | "all")
+                }
+              >
+                <option value="all">All categories</option>
+                <option value="destroyed">Destroyed</option>
+                <option value="damaged">Damaged (Minor + Major)</option>
+                <option value="no_apparent_damage">No Apparent Damage</option>
+              </select>
+            </label>
 
-        <label>
-          <span>Suggested Inspection Tier:</span>
-          <select
-            value={tierFilter}
-            onChange={(e) =>
-              setTierFilter(e.target.value as SuggestedTier | "all")
-            }
-          >
-            <option value="all">All tiers</option>
-            <option value="high">High priority</option>
-            <option value="medium">Medium priority</option>
-            <option value="lower">Lower priority</option>
-          </select>
-        </label>
+            <label>
+              <span>Suggested Inspection Tier:</span>
+              <select
+                value={tierFilter}
+                onChange={(e) =>
+                  setTierFilter(e.target.value as SuggestedTier | "all")
+                }
+              >
+                <option value="all">All tiers</option>
+                <option value="high">High priority</option>
+                <option value="medium">Medium priority</option>
+                <option value="lower">Lower priority</option>
+              </select>
+            </label>
 
-        {(categoryFilter !== "all" || tierFilter !== "all") && (
-          <button
-            type="button"
-            className="reset-btn"
-            onClick={() => {
-              setCategoryFilter("all");
-              setTierFilter("all");
-            }}
-          >
-            Reset Filters
-          </button>
-        )}
-      </section>
-
-      <main className="workspace-grid">
-        <div className="map-column">
-          <InspectionMap
-            features={visibleFeatures}
-            selectedId={selectedId}
-            onSelectFeature={setSelectedId}
-          />
-        </div>
-
-        <aside className="sidebar-column">
-          <section className="list-card" aria-label="Inspection priority list">
-            <div className="list-header">
-              <h2>Inspection Targets ({visibleFeatures.length})</h2>
-              <span className="muted-small">
-                Ordered: High &rarr; Medium &rarr; Lower (within-tier ties)
-              </span>
-            </div>
-
-            {visibleFeatures.length === 0 ? (
-              <p className="muted">
-                No regions match the active category/tier filters.
-              </p>
-            ) : (
-              <ul className="target-list">
-                {visibleFeatures.map((feature) => {
-                  const props = feature.properties;
-                  const isSelected = props.building_id === selectedId;
-                  const catMeta = DISPLAY_CATEGORY_META[props.display_category];
-
-                  return (
-                    <li key={props.building_id}>
-                      <button
-                        type="button"
-                        className={`target-row ${
-                          isSelected ? "target-row-selected" : ""
-                        }`}
-                        onClick={() => setSelectedId(props.building_id)}
-                      >
-                        <div className="target-row-top">
-                          <strong>{props.building_id}</strong>
-                          <span
-                            className={`tier-badge tier-${props.suggested_tier}`}
-                          >
-                            {TIER_LABELS[props.suggested_tier]}
-                          </span>
-                        </div>
-                        <div className="target-row-bottom">
-                          <span style={{ color: catMeta.color }}>
-                            &#9679; {catMeta.label}
-                          </span>
-                          <span className="muted-small">
-                            {props.object_kind} &middot; {props.footprint_source}
-                          </span>
-                        </div>
-                      </button>
-                    </li>
-                  );
-                })}
-              </ul>
+            {(categoryFilter !== "all" || tierFilter !== "all") && (
+              <button
+                type="button"
+                className="reset-btn"
+                onClick={() => {
+                  setCategoryFilter("all");
+                  setTierFilter("all");
+                }}
+              >
+                Reset Filters
+              </button>
             )}
           </section>
 
-          <FeatureDetailPanel feature={selectedFeature} />
-        </aside>
-      </main>
+          <main className="workspace-grid">
+            <div className="map-column">
+              <InspectionMap
+                features={visibleFeatures}
+                selectedId={selectedId}
+                onSelectFeature={setSelectedId}
+              />
+            </div>
+
+            <aside className="sidebar-column">
+              <section
+                className="list-card"
+                aria-label="Inspection priority list"
+              >
+                <div className="list-header">
+                  <h2>Inspection Targets ({visibleFeatures.length})</h2>
+                  <span className="muted-small">
+                    Ordered: High &rarr; Medium &rarr; Lower (within-tier ties)
+                  </span>
+                </div>
+
+                {visibleFeatures.length === 0 ? (
+                  <p className="muted">
+                    {assessment.counts.total === 0
+                      ? "Assessment completed with 0 detected buildings."
+                      : "No regions match the active category/tier filters."}
+                  </p>
+                ) : (
+                  <ul className="target-list">
+                    {visibleFeatures.map((feature) => {
+                      const props = feature.properties;
+                      const isSelected = props.building_id === selectedId;
+                      const catMeta =
+                        DISPLAY_CATEGORY_META[props.display_category];
+
+                      return (
+                        <li key={props.building_id}>
+                          <button
+                            type="button"
+                            className={`target-row ${
+                              isSelected ? "target-row-selected" : ""
+                            }`}
+                            onClick={() => setSelectedId(props.building_id)}
+                          >
+                            <div className="target-row-top">
+                              <strong>{props.building_id}</strong>
+                              <span
+                                className={`tier-badge tier-${props.suggested_tier}`}
+                              >
+                                {TIER_LABELS[props.suggested_tier]}
+                              </span>
+                            </div>
+                            <div className="target-row-bottom">
+                              <span style={{ color: catMeta.color }}>
+                                &#9679; {catMeta.label}
+                              </span>
+                              <span className="muted-small">
+                                {props.object_kind} &middot;{" "}
+                                {props.footprint_source}
+                              </span>
+                            </div>
+                          </button>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
+              </section>
+
+              <FeatureDetailPanel feature={selectedFeature} />
+            </aside>
+          </main>
+        </>
+      )}
     </div>
   );
 }

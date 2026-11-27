@@ -1,6 +1,5 @@
 import { FormEvent, useEffect, useState } from "react";
 import {
-  ApiError,
   HealthResponse,
   JobStatusResponse,
   PreparedPair,
@@ -19,46 +18,40 @@ export type DataSourceMode = "fixture" | "live";
 interface BackendJobPanelProps {
   mode: DataSourceMode;
   onModeChange: (mode: DataSourceMode) => void;
-  activeAssessment: AssessmentResult;
+  activeAssessment: AssessmentResult | null;
+  visibleCount: number;
   onLiveResultLoaded: (result: AssessmentResult) => void;
 }
-
-const DEFAULT_PAIRS: PreparedPair[] = [
-  {
-    pair_id: "haiti-2010-port-au-prince-01",
-    label: "Haiti 2010 — Port-au-Prince Sector 01 (Prepared Pair)",
-  },
-];
 
 export default function BackendJobPanel({
   mode,
   onModeChange,
   activeAssessment,
+  visibleCount,
   onLiveResultLoaded,
 }: BackendJobPanelProps) {
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [healthError, setHealthError] = useState<string | null>(null);
-  const [pairs, setPairs] = useState<PreparedPair[]>(DEFAULT_PAIRS);
-  const [selectedPairId, setSelectedPairId] = useState<string>(
-    DEFAULT_PAIRS[0].pair_id
-  );
+  const [pairs, setPairs] = useState<PreparedPair[]>([]);
+  const [pairsError, setPairsError] = useState<string | null>(null);
+  const [pairsLoading, setPairsLoading] = useState(false);
+  const [selectedPairId, setSelectedPairId] = useState<string>("");
   const [submissionTab, setSubmissionTab] = useState<"prepared" | "upload">(
     "prepared"
   );
   const [beforeFile, setBeforeFile] = useState<File | null>(null);
   const [afterFile, setAfterFile] = useState<File | null>(null);
-  const [customPairLabel, setCustomPairLabel] = useState<string>("");
 
   const [activeJob, setActiveJob] = useState<JobStatusResponse | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [jobError, setJobError] = useState<string | null>(null);
 
-  // Check backend health & prepared pairs whenever switching to live mode
   useEffect(() => {
     if (mode !== "live") return;
     let cancelled = false;
 
     async function loadBackendMeta() {
+      setPairsLoading(true);
       try {
         const h = await fetchHealth();
         if (!cancelled) {
@@ -77,13 +70,28 @@ export default function BackendJobPanel({
       }
 
       try {
-        const remotePairs = await fetchPreparedPairs();
-        if (!cancelled && remotePairs.length > 0) {
-          setPairs(remotePairs);
-          setSelectedPairId(remotePairs[0].pair_id);
+        const registry = await fetchPreparedPairs();
+        if (!cancelled) {
+          setPairs(registry.pairs);
+          setPairsError(null);
+          setSelectedPairId((prev) =>
+            registry.pairs.some((p) => p.pair_id === prev)
+              ? prev
+              : (registry.pairs[0]?.pair_id ?? "")
+          );
         }
-      } catch {
-        // Keep fallback prepared pair list if /pairs is not implemented yet
+      } catch (err) {
+        if (!cancelled) {
+          setPairs([]);
+          setSelectedPairId("");
+          setPairsError(
+            err instanceof Error
+              ? err.message
+              : "Failed to load prepared pairs from registry."
+          );
+        }
+      } finally {
+        if (!cancelled) setPairsLoading(false);
       }
     }
 
@@ -93,7 +101,6 @@ export default function BackendJobPanel({
     };
   }, [mode]);
 
-  // Poll queued/running jobs every 2 seconds until completed or failed
   useEffect(() => {
     if (
       mode !== "live" ||
@@ -124,14 +131,31 @@ export default function BackendJobPanel({
     return () => window.clearInterval(timer);
   }, [mode, activeJob, onLiveResultLoaded]);
 
+  const isPolling =
+    activeJob?.status === "queued" || activeJob?.status === "running";
+  const inferenceReady = Boolean(health?.inference_ready);
+  const canSubmitPrepared =
+    inferenceReady && !submitting && !isPolling && Boolean(selectedPairId);
+  const canSubmitUpload =
+    inferenceReady &&
+    !submitting &&
+    !isPolling &&
+    Boolean(beforeFile && afterFile);
+
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
+    if (!inferenceReady) return;
     setJobError(null);
     setSubmitting(true);
 
     try {
       let job: JobStatusResponse;
       if (submissionTab === "prepared") {
+        if (!selectedPairId) {
+          setJobError("No valid prepared pair selected.");
+          setSubmitting(false);
+          return;
+        }
         job = await submitPreparedPairJob(selectedPairId);
       } else {
         if (!beforeFile || !afterFile) {
@@ -142,7 +166,6 @@ export default function BackendJobPanel({
         job = await submitUploadJob({
           beforeFile,
           afterFile,
-          pairLabel: customPairLabel,
         });
       }
 
@@ -154,21 +177,16 @@ export default function BackendJobPanel({
         setJobError(job.error || "Job failed immediately.");
       }
     } catch (err) {
-      if (err instanceof ApiError && err.status === 404) {
-        setJobError(
-          "Backend job endpoint (POST /jobs) is not implemented yet on the FastAPI server."
-        );
-      } else {
-        setJobError(
-          err instanceof Error ? err.message : "Failed to submit assessment job."
-        );
-      }
+      setJobError(
+        err instanceof Error ? err.message : "Failed to submit assessment job."
+      );
     } finally {
       setSubmitting(false);
     }
   }
 
   function handleFixtureExport(format: "geojson" | "csv") {
+    if (!activeAssessment) return;
     let content = "";
     let mime = "application/json";
     if (format === "geojson") {
@@ -211,8 +229,7 @@ export default function BackendJobPanel({
     URL.revokeObjectURL(url);
   }
 
-  const isPolling =
-    activeJob?.status === "queued" || activeJob?.status === "running";
+  const jobTotalCount = activeAssessment?.counts.total ?? 0;
 
   return (
     <section className="backend-panel" aria-label="Data source and exports">
@@ -235,41 +252,52 @@ export default function BackendJobPanel({
         </div>
 
         <div className="export-group">
-          <span className="muted-small">Export Report:</span>
-          {activeAssessment.is_fixture ? (
+          {activeAssessment ? (
             <>
-              <button
-                type="button"
-                className="export-btn"
-                onClick={() => handleFixtureExport("geojson")}
-              >
-                GeoJSON
-              </button>
-              <button
-                type="button"
-                className="export-btn"
-                onClick={() => handleFixtureExport("csv")}
-              >
-                CSV
-              </button>
+              <span className="muted-small">
+                Download whole job ({jobTotalCount} total &middot; {visibleCount}{" "}
+                visible):
+              </span>
+              {activeAssessment.is_fixture ? (
+                <>
+                  <button
+                    type="button"
+                    className="export-btn"
+                    onClick={() => handleFixtureExport("geojson")}
+                  >
+                    GeoJSON
+                  </button>
+                  <button
+                    type="button"
+                    className="export-btn"
+                    onClick={() => handleFixtureExport("csv")}
+                  >
+                    CSV
+                  </button>
+                </>
+              ) : (
+                <>
+                  <a
+                    className="export-btn"
+                    href={getExportUrl(activeAssessment.job_id, "geojson")}
+                    download
+                  >
+                    GeoJSON
+                  </a>
+                  <a
+                    className="export-btn"
+                    href={getExportUrl(activeAssessment.job_id, "csv")}
+                    download
+                  >
+                    CSV
+                  </a>
+                </>
+              )}
             </>
           ) : (
-            <>
-              <a
-                className="export-btn"
-                href={getExportUrl(activeAssessment.job_id, "geojson")}
-                download
-              >
-                GeoJSON
-              </a>
-              <a
-                className="export-btn"
-                href={getExportUrl(activeAssessment.job_id, "csv")}
-                download
-              >
-                CSV
-              </a>
-            </>
+            <span className="muted-small">
+              Download whole job: unavailable until a live job completes
+            </span>
           )}
         </div>
       </div>
@@ -278,9 +306,16 @@ export default function BackendJobPanel({
         <div className="live-controls">
           <div className="health-strip">
             {health ? (
-              <span className="status-pill status-ok">
+              <span
+                className={`status-pill ${
+                  health.inference_ready ? "status-ok" : "status-err"
+                }`}
+              >
                 API Connected &middot; Inference Ready:{" "}
-                <strong>{health.inference_ready ? "Yes" : "No (Starter)"}</strong>
+                <strong>{health.inference_ready ? "Yes" : "No"}</strong>
+                {!health.inference_ready && health.inference_reason
+                  ? ` — ${health.inference_reason}`
+                  : ""}
               </span>
             ) : (
               <span className="status-pill status-err">
@@ -323,21 +358,34 @@ export default function BackendJobPanel({
 
             {submissionTab === "prepared" ? (
               <div className="job-form-row">
-                <select
-                  value={selectedPairId}
-                  onChange={(e) => setSelectedPairId(e.target.value)}
-                  disabled={submitting || isPolling}
-                >
-                  {pairs.map((p) => (
-                    <option key={p.pair_id} value={p.pair_id}>
-                      {p.label}
-                    </option>
-                  ))}
-                </select>
+                {pairsError ? (
+                  <span className="job-error" role="alert">
+                    Registry error: {pairsError}
+                  </span>
+                ) : pairsLoading ? (
+                  <span className="muted-small">Loading prepared pairs...</span>
+                ) : pairs.length === 0 ? (
+                  <span className="muted-small">
+                    No valid prepared pairs registered on backend.
+                  </span>
+                ) : (
+                  <select
+                    value={selectedPairId}
+                    onChange={(e) => setSelectedPairId(e.target.value)}
+                    disabled={submitting || isPolling}
+                  >
+                    {pairs.map((p) => (
+                      <option key={p.pair_id} value={p.pair_id}>
+                        {p.label ?? p.pair_id}
+                        {p.width && p.height ? ` (${p.width}×${p.height})` : ""}
+                      </option>
+                    ))}
+                  </select>
+                )}
                 <button
                   type="submit"
                   className="primary-btn"
-                  disabled={submitting || isPolling}
+                  disabled={!canSubmitPrepared}
                 >
                   {submitting
                     ? "Submitting..."
@@ -366,19 +414,16 @@ export default function BackendJobPanel({
                     disabled={submitting || isPolling}
                   />
                 </label>
-                <input
-                  type="text"
-                  placeholder="Optional pair label"
-                  value={customPairLabel}
-                  onChange={(e) => setCustomPairLabel(e.target.value)}
-                  disabled={submitting || isPolling}
-                />
                 <button
                   type="submit"
                   className="primary-btn"
-                  disabled={submitting || isPolling}
+                  disabled={!canSubmitUpload}
                 >
-                  {submitting ? "Uploading..." : "Upload & Assess"}
+                  {submitting
+                    ? "Uploading..."
+                    : isPolling
+                      ? "Running Inference..."
+                      : "Upload & Assess"}
                 </button>
               </div>
             )}

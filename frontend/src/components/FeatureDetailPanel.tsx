@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { resolveApiAssetUrl } from "../api/client";
 import {
   BuildingFeature,
   DISPLAY_CATEGORY_META,
@@ -24,6 +26,17 @@ function formatFootprintSource(source: string): string {
 export default function FeatureDetailPanel({
   feature,
 }: FeatureDetailPanelProps) {
+  const [beforeImgFailed, setBeforeImgFailed] = useState(false);
+  const [afterImgFailed, setAfterImgFailed] = useState(false);
+
+  const beforeUrl = resolveApiAssetUrl(feature?.properties.crop_urls?.before);
+  const afterUrl = resolveApiAssetUrl(feature?.properties.crop_urls?.after);
+
+  useEffect(() => {
+    setBeforeImgFailed(false);
+    setAfterImgFailed(false);
+  }, [beforeUrl, afterUrl, feature?.properties.building_id]);
+
   if (!feature) {
     return (
       <section className="detail-card" aria-label="Building details">
@@ -96,13 +109,14 @@ export default function FeatureDetailPanel({
       </ul>
 
       <h4>Before / After Paired Crops</h4>
-      {properties.before_crop_url || properties.after_crop_url ? (
+      {beforeUrl || afterUrl ? (
         <div className="crop-grid">
           <figure>
-            {properties.before_crop_url ? (
+            {beforeUrl && !beforeImgFailed ? (
               <img
-                src={properties.before_crop_url}
+                src={beforeUrl}
                 alt={`Before event crop for ${properties.building_id}`}
+                onError={() => setBeforeImgFailed(true)}
               />
             ) : (
               <div className="crop-missing">Before crop unavailable</div>
@@ -110,10 +124,11 @@ export default function FeatureDetailPanel({
             <figcaption>Pre-event</figcaption>
           </figure>
           <figure>
-            {properties.after_crop_url ? (
+            {afterUrl && !afterImgFailed ? (
               <img
-                src={properties.after_crop_url}
+                src={afterUrl}
                 alt={`After event crop for ${properties.building_id}`}
+                onError={() => setAfterImgFailed(true)}
               />
             ) : (
               <div className="crop-missing">After crop unavailable</div>
@@ -122,9 +137,7 @@ export default function FeatureDetailPanel({
           </figure>
         </div>
       ) : (
-        <p className="muted">
-          No paired crop URLs returned for this record.
-        </p>
+        <p className="muted">No paired crop URLs returned for this record.</p>
       )}
 
       <p className="disclaimer-note">
